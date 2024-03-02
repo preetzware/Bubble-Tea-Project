@@ -8,3 +8,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: "Inter", sans-serif "Charm", cursive "Barriecito", system-ui;
+    font-weight: 300;
+    color: black;
+}
