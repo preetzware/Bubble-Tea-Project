@@ -1,2 +1,10 @@
 /* Import Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Charm:wght@400;700&family=Inter:wght@100..900&display=swap')
+
+/* Asterix wildcard selector to override default styles added by the browser */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
