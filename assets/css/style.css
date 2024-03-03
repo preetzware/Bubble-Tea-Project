@@ -267,3 +267,59 @@ a:hover {
     text-decoration: underline;
     color: blueviolet;
 }
+
+/* Boba section and overview */
+
+#about-boba {
+    width: 80%;
+    margin: 50px 0 100px 105px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 7vmin;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    padding-bottom: 4rem;
+}
+
+.boba {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.boba .text-boba {
+    width: 50%;
+    padding-left: 5rem;
+    height: 400px;
+}
+
+.boba img {
+    width: 50%;
+    max-width: 450px;
+    height: 400px;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.boba .boba-img .text-boba {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-boba h2 {
+    padding-bottom: 0.5rem;
+}
+
+.text-boba p {
+    padding-top: 2rem;
+    line-height: 1.1;
+    letter-spacing: 0;
+    font-size: 18px;
+    text-align: justify;
+}
