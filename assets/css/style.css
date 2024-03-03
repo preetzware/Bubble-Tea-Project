@@ -460,5 +460,7 @@ line-height: 1rem;
 
 #head-menu {
     text-align: center;
-    font-weight: bold;
+    font-family: "Charm", cursive;
+    font-weight: 600;
+    font-size: 11vmin;
 }
