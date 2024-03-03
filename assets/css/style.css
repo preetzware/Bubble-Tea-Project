@@ -204,3 +204,65 @@ hr {
     border-radius: 4px;
     text-decoration: none;
 }
+
+/* Special Offers section */
+
+#deals-section {
+    width: 95%;
+    margin: 100px 10px;
+}
+
+#deals-section h1 {
+    text-align: center;
+    font-size: 10vmin;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+#deals-section h2 {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 6vmin; 
+    font-weight: 600;
+}
+
+.deals {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 50px 15px;
+}
+
+.box {
+    border: 5px solid #cdcdcd;
+    height: 500px;
+    width: 23%;
+    justify-content: space-evenly;
+    text-decoration: none;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.box img {
+    height: 310px;
+    width: 100%;
+    max-width: 220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 2rem;
+    display: flex;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
