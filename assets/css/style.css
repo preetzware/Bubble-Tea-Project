@@ -455,3 +455,10 @@ line-height: 1rem;
     padding-top: 1rem;
     text-align: center;
 }
+
+/* Menu section*/
+
+#head-menu {
+    text-align: center;
+    font-weight: bold;
+}
