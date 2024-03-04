@@ -705,18 +705,22 @@ line-height: 1rem;
     width: 100%;
     margin: 5rem 0;
 }
+
 .title-partea {
     width: 90%; 
     padding-left: 4rem;     
 }
+
 .title-partea h1 {
     display: flex;
     justify-content: center;
     font-family: "charm", cursive;
 }
+
 .boba-gif {
     height: 120px;
     width: 120px;
     display: flex;
     margin-left: 31rem;
 }
+
