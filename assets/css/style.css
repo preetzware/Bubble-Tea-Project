@@ -465,6 +465,15 @@ line-height: 1rem;
     font-size: 11vmin;
 }
 
+#menu-text {
+    color: #00e092b1;
+}
+
+#menu-text h2 {
+    display: flex;
+    justify-content: center;
+}
+
 /*  Milk Series  */
 
 #milk-tea-section {
