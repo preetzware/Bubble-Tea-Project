@@ -724,3 +724,17 @@ line-height: 1rem;
     margin-left: 31rem;
 }
 
+/*  Gallery page - title and gif section  */
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px 0 100px 0;
+}
+#gallery img {
+    flex-wrap: wrap;
+    width: 320px;
+    height: 300px;
+    margin: 10px 0;
+}
