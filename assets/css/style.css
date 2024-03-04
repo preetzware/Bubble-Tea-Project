@@ -716,7 +716,7 @@ line-height: 1rem;
     display: flex;
     justify-content: center;
     font-family: "Charm", cursive;
-    font-size: 10vmin;
+    font-size: 12vmin;
 }
 
 .title-partea #tea {
@@ -748,7 +748,7 @@ line-height: 1rem;
 /*  Form page - Sign Up Section  */
 
 #form-section {
-    margin: 3rem 9rem;
+    margin: 4rem 9rem;
     font-family: "Inter", sans-serif;
 }
 
