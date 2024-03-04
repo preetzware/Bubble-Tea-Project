@@ -335,13 +335,16 @@ footer {
     align-content: center;
 }
 
-footer a img {
+.footer-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo a img {
     height: 19.7vh;
     width: 100%;
-    max-width: 130px;
-    display: block;
-    margin-left: 35rem;
-    
+    max-width: 150px;   
     border: #F8FAF9;
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -384,20 +387,17 @@ line-height: 1rem;
 
 .footer-end {
     width: 100%;
-    max-width: 1400px;
-    display: block;
+    display: flex;
+    justify-content: center;
     background-color: #06141B;
 }
 
 .footer-end h2 {
     font-size: 15px;
-    font-family: inter, Arial, Helvetica, sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     color: #F8FAF9;
     height: 35px;
-    align-items: center;
-    align-content: center;
-    padding-left: 31rem;
     padding-top: 0.6rem;
 }
 
@@ -834,3 +834,4 @@ line-height: 1rem;
     font-weight: bold;
     opacity:1;
 }
+
