@@ -715,6 +715,11 @@ line-height: 1rem;
     display: flex;
     justify-content: center;
     font-family: "charm", cursive;
+    font-size: 10vmin;
+}
+
+.title-partea #tea {
+    font-size: larger;
 }
 
 .boba-gif {
