@@ -272,8 +272,8 @@ a:hover {
 /* Boba section and overview */
 
 #about-boba {
-    width: 80%;
-    margin: 50px 0 100px 105px;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
 .heading {
@@ -286,31 +286,27 @@ a:hover {
 
 .boba {
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
     width: 100%;
-    justify-content: space-between;
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
 
 .boba .text-boba {
-    width: 50%;
-    padding-left: 5rem;
+    width: 45%;
+    max-width: 410px;
     height: 400px;
 }
 
-.boba img {
-    width: 50%;
-    max-width: 450px;
+.bubbles-tea {
+    width: 45%;
+    max-width: 410px;
     height: 400px;
-    position: relative;
-    padding-left: 1rem;
 }
 
-.boba .boba-img .text-boba {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.bubbles-tea img {
+    width: 400px;
+    height: 350px;
 }
 
 .text-boba h2 {
@@ -318,10 +314,10 @@ a:hover {
 }
 
 .text-boba p {
-    padding-top: 2rem;
+    padding-top: 1rem;
     line-height: 1.1;
     letter-spacing: 0;
-    font-size: 18px;
+    font-size: 17px;
     text-align: justify;
 }
 
@@ -872,73 +868,82 @@ line-height: 1rem;
 
 @media screen and (max-width: 1200px) {
 
-    /*  Hero Section  */
-        #hero-text {
-            font-size: 6vmin;
-            padding-top: 1.5rem;
-        }
-    /*  Welcome Section  */
-        .title {
-            font-size: 6vmin;
-        }
-        #welcome {
-            width: 90%;
-        }
-        .button {
-            margin-top: 1.5rem;
-        }
-        /*  Deals Section  */
-        #deals-section {
-            margin-bottom: 0;
-        }
-        #deals-section h1 {
-            font-size: 8vmin;
-        }
-        #deals-section h2 {
-            font-size: 5vmin;
-        }
-        #deals-section .box a h2 {
-            font-size: 3vmin;
-        }
-        #deals-section .box {
-            height: 450px;
-        }
-        #deals-section .deals .box {
-            margin: 40px 10px 28px 10px;
-        }
-         /*  About Boba Section  */
-         #about-boba {
-            width: 100%;
-            margin-top: 0;
-            margin-left: 2rem;
-            margin-bottom: 5rem;
-        }
-        .heading h1 {
-            font-size: 8vmin;
-        }
-        #about-boba .boba .text-boba {
-            margin-right: 4.5rem;
-        }
-         /*  Menu Section  */
-         #menu-text {
-            font-size: 5vmin;
-        }
-        #order-section {
-            width: 100%;
-        }
-        #order-head {
-            font-size: 7vmin;
-        }
-        .container img {
-            width: 150px;
-            height: 150px;
-        }
-        .container {
-            width: 16%;
-            height: 200px;
-            margin-left: 2rem;
-        }
-        .container h2 {
-            padding-bottom: 3rem;
-        }
-         /*  Menu Section  */   
+/*  Hero Section  */
+
+#hero-text {
+    font-size: 6vmin;
+    padding-top: 1.5rem;
+}
+
+/*  Welcome Section  */
+
+.title {
+    font-size: 6vmin;
+}
+#welcome {
+    width: 90%;
+}
+.button {
+    margin-top: 1.5rem;
+}
+
+/*  Deals Section  */
+
+#deals-section {
+    margin-bottom: 0;
+}
+#deals-section h1 {
+    font-size: 8vmin;
+}
+#deals-section h2 {
+    font-size: 5vmin;
+}
+#deals-section .box a h2 {
+    font-size: 3vmin;
+}
+#deals-section .box {
+    height: 450px;
+}
+#deals-section .deals .box {
+    margin: 40px 10px 28px 10px;
+}
+
+/*  About Boba Section  */
+
+#about-boba {
+    width: 100%;
+    margin: 0 0 5rem 2rem;
+}
+
+.heading h1 {
+    font-size: 8vmin;
+}
+
+#about-boba .boba .text-boba {
+    margin-right: 4.5rem;
+}
+
+/*  Menu Section  */
+
+#menu-text {
+    font-size: 5vmin;
+}
+#order-section {
+    width: 100%;
+}
+#order-head {
+    font-size: 7vmin;
+}
+.container img {
+    width: 150px;
+    height: 150px;
+}
+.container {
+    width: 16%;
+    height: 200px;
+    margin-left: 2rem;
+    }
+.container h2 {
+    padding-bottom: 3rem;
+}
+        
