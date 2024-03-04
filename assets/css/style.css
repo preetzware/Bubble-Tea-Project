@@ -708,13 +708,14 @@ line-height: 1rem;
 
 .title-partea {
     width: 90%; 
-    padding-left: 4rem;     
+    padding-left: 4rem;
+    font-family: "Charm", cursive;   
 }
 
 .title-partea h1 {
     display: flex;
     justify-content: center;
-    font-family: "charm", cursive;
+    font-family: "Charm", cursive;
     font-size: 10vmin;
 }
 
