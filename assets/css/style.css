@@ -681,17 +681,20 @@ line-height: 1rem;
     height: 300px;
 }
 
-.boba-mid h1 span {
+.boba-mid h2 span {
     background-color: #E42256;
-    padding: 0.7rem;
-}
-
-.boba-mid h1 {
-    padding-bottom: 0.5rem;
+    padding: 0.4rem;
 }
 
 .boba-mid h2 {
+    padding-bottom: 0.5rem;
+    font-size: 4vmin;
+}
+
+.boba-mid p {
     padding-top: 0.3rem;
+    font-weight: 600;
+    font-size: 3.6vmin;
 }
 
 /*  Sign-up offer Section  */
@@ -750,7 +753,7 @@ line-height: 1rem;
     margin: 3rem 0;
 }
 
-.bubble-partea h1 {
+.bubble-partea h2 {
     display: flex;
     justify-content: center;
     font-family: "Charm", cursive;
@@ -1085,17 +1088,17 @@ line-height: 1rem;
 .container-milk {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin: 0 0.7rem;
+    justify-content: space-evenly;
+    margin: 0;
     font-size: 2.6vmin;
 }
 .img-milktea {
     position: relative;
-    height: 150px;
-    width: 120px;
+    height: 130px;
+    width: 110px;
     border: none;
     background: no-repeat center;
-    border-radius: 5%;
+    border-radius: 7%;
     padding-bottom: 0.5rem;
     margin: 0;
 }
@@ -1103,30 +1106,51 @@ line-height: 1rem;
     width: 15%;
     height: 200px;
 }
-.milk-tea h3 {
+.menu-price {
 font-size: 4vmin;
 }
-.milk-series {
-    width: 100%;
-}
+
 .fruit-tea {
     width: 15%;
     height: 200px;
 }
-.fruit-tea h3 {
-    font-size: 4vmin;
-}
+
 .slush-tea {
     width: 15%;
     height: 200px;
-}
-.slush-tea h3 {
-    font-size: 4vmin;
 }
 .smoothies-tea {
     width: 15%;
     height: 200px;
 }
-.smoothies-tea h3 {
-    font-size: 4vmin;
+.toppings .boba-left {
+    width: 30%;
+    max-width: 240px;
+    height: 250px;
+}
+
+.toppings .boba-mid {
+    width: 30%;
+    max-width: 240px;
+    height: 250px;
+    font-size: 2.4vmin;
+    text-align: center;
+}   
+.toppings .boba-right {
+    width: 30%;
+    max-width: 240px;
+    height: 250px;
+}
+
+.boba-left img {
+    width: 230px;
+    height: 240px;
+}
+
+.boba-right img {
+    width: 230px;
+    height: 240px;
+}
+.boba-mid h2 {
+    font-size: 3vmin;
 }
