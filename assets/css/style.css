@@ -409,6 +409,7 @@ line-height: 1rem;
 
 #order-section {
     width: 100%;
+    height: 120vh;
     background-color: #B40052;
     margin-top: 2rem;
     margin-bottom: 2.5rem;
@@ -420,7 +421,7 @@ line-height: 1rem;
     font-weight: bold;
     text-align: center;
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .container {
@@ -431,7 +432,7 @@ line-height: 1rem;
     text-align: center;
     font-family: "Inter", sans-serif;
     align-content: center;
-    padding: 0 0 3rem 0;
+    padding: 0 0 4rem 0;
     margin-left: 0.9rem;
 }
 
@@ -449,6 +450,7 @@ line-height: 1rem;
 .container h2 {
     padding-top: 1rem;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 /* Menu section*/
@@ -742,28 +744,21 @@ line-height: 1rem;
     margin: 5rem 0;
 }
 
-.title-partea {
-    width: 90%; 
-    padding-left: 4rem;
-    font-family: "Charm", cursive;   
-}
-
-.title-partea h1 {
+.bubble-partea h1 {
     display: flex;
     justify-content: center;
     font-family: "Charm", cursive;
     font-size: 12vmin;
 }
 
-.title-partea #tea {
-    font-size: larger;
+.gif-partea {
+    display: flex;
+    justify-content: center;
 }
 
-.boba-gif {
-    height: 120px;
+.gif-partea img {
+    height: 100px;
     width: 120px;
-    display: flex;
-    margin-left: 31rem;
 }
 
 /*  Gallery page - title and gif section  */
@@ -779,6 +774,11 @@ line-height: 1rem;
     width: 320px;
     height: 300px;
     margin: 10px 0;
+    transition: transform .2s;
+}
+#gallery img:hover {
+    cursor: pointer;
+    transform: scale(1.5); 
 }
 
 /*  Form page - Sign Up Section  */
@@ -910,17 +910,8 @@ line-height: 1rem;
 
 /*  About Boba Section  */
 
-#about-boba {
-    width: 100%;
-    margin: 0 0 5rem 2rem;
-}
-
 .heading h1 {
     font-size: 8vmin;
-}
-
-#about-boba .boba .text-boba {
-    margin-right: 4.5rem;
 }
 
 /*  Menu Section  */
