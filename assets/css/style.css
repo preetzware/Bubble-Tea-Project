@@ -17,19 +17,19 @@ body {
 .header {
     position: relative;
     width: 100%;
-    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #FAD02C;
     padding: 0 25px;
+    transition: 0.3s;
 }
 
-#logo {
+.logo a {
     display: block;
 }
 
-.header a #logo {
+.logo a img {
     width: 100%;
     max-width: 110px;
     height: 85px;
@@ -42,7 +42,7 @@ body {
     align-items: center;
 }
 
-#nav-links {
+.menu {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -50,36 +50,31 @@ body {
     z-index: 1;
     transition: 0.5s;
 }
-#nav-links li{
-    list-style: none;
-    display: block;
-    padding: 40px 25px;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1;
-    transition: 0.3s;
+.menu li{
+    list-style: none;    
 } 
 
-#nav-links li a {
-    transition: all 0.3s ease 0s;
+.menu li a {
     text-decoration: none;
     color: black;
+    display: block;
+    padding: 8px 25px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    transition: 0.3s;
 }
 
-#nav-links a:hover {
-    color:#0000FF;
-    border-block:0.5rem solid #F8FAF9;
-    writing-mode: horizontal-tb;
-}
-
-.active {
-    border-block:0.5rem solid white;
+.menu li a:hover {
+   box-shadow: 0 -5px 0px #0000FF inset, 
+   500px 0 0 #988780 inset;
+   padding: 35px 25px 45px 25px;
 }
 
 .hamburger {
     position: relative;
-    width: 30px;
+    width: 35px;
     height: 4px;
     background-color: #F8FAF9;
     border-radius: 10px;
@@ -88,24 +83,25 @@ body {
     transition: 0.3s;
 }
 
-.hamburger::before,
-.hamburger::after {
+.hamburger:before,
+.hamburger:after {
     content: "";
     position: absolute;
     height: 4px;
     right: 0;
-    background: #F8FAF9;
+    background-color: #F8FAF9;
     border-radius: 10px;
     transition: 0.3s;
 }
 
-.hamburger::before {
+.hamburger:before {
     top: -10px;
-    width: 30px;
+    width: 35px;
 }
-.hamburger::after {
+
+.hamburger:after {
     top: 10px;
-    width: 30px;
+    width: 35px;
 }
 .toggle-menu {
     position: absolute;
@@ -118,30 +114,27 @@ body {
 
 .hamburger,
 .toggle-menu {
-    display: none;
+   display: none;
 }
 
-.navigation input:checked ~.hamburger {
+.navigation input:checked ~ .hamburger {
     background: transparent;
 }
 
-.navigation input:checked ~.hamburger::before {
+.navigation input:checked ~ .hamburger:before {
     top: 0;
-    transform:rotate(-45deg);
+    transform: rotate(-45deg);
     width: 30px;
 }
 
-.navigation input:checked ~.hamburger::after {
+.navigation input:checked ~ .hamburger:after {
     top: 0;
-    transform:rotate(45deg);
+    transform: rotate(45deg);
     width: 30px;
 }
-
-.navigation input:checked ~ .nav-links {
+.navigation input:checked ~ .menu {
     right: 0;
-    box-shadow: -20px 0 40px white;
 }
-
 /* hero section and text overlay */
 
 #hero-section {
@@ -1262,33 +1255,33 @@ font-size: 4vmin;
 
 @media screen and (max-width: 768px) {
 
-.header {
-    background-color: #06141B;
+    .hamburger,
+    .toggle-menu {
+        display: block;
     }
-.hamburger,
-.toggle-menu {
-    display: block;
-}
-#nav-links {
-    justify-content: start;
-    flex-direction: column;
-    align-self: center;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    background:#FAD02C;
-    color: #F8FAF9;
-    width: 300px;
-    height: 100%;
-    padding-top: 85px;
-}
-.nav-links li {
-    width: 100%;
-}
-.nav-links li a,
-.nav-links li a:hover {
-    padding: 30px;
-    font-size: 18px;
-    box-shadow: 0 1px 0 white
-    inset;
+    .header {
+        padding: 10px 20px;
+    }
+
+    .menu {
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background-color:blueviolet;
+        width: 300px;
+        height: 100%;
+        padding-top: 85px;
+    }
+    .menu li {
+        width: 100%;
+    }
+    .menu li a,
+    .menu li a:hover {
+        padding: 30px;
+        font-size: 24px;
+        box-shadow: 0 1px 0 #ffffff1a inset;
+    }
 }
