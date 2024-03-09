@@ -940,3 +940,86 @@ line-height: 1rem;
     opacity:1;
 }
 
+/*  Media Queries Section */
+
+/* For larger to medium screens size from 1200px and wide and down */
+
+@media screen and (max-width: 1200px) {
+
+    /*  Hero Section  */
+    
+    #hero-text {
+        font-size: 6vmin;
+        padding-top: 1.5rem;
+    }
+    
+    /*  Welcome Section  */
+    
+    .title {
+        font-size: 6vmin;
+    }
+    #welcome {
+        width: 100%;
+    }
+    
+    /*  Offers Section  */
+    
+    #deals-section {
+        margin-bottom: 0;
+    }
+    #deals-section h2 {
+        font-size: 8vmin;
+        padding-bottom: 0;
+    }
+    #deals-section h2 #members {
+        font-size: 5vmin;
+    }
+    #deals-section .box h4 {
+        font-size: 3.5vmin;
+    }
+    #deals-section .box {
+        height: 450px;
+    }
+    #deals-section .deals .box {
+        margin: 40px 10px 28px 10px;
+    }
+    
+    /*  About Boba Section  */
+    
+    .heading h2 {
+        font-size: 7.3vmin;
+    }
+    
+    /*  Menu Section  */
+    
+    #menu-text {
+        font-size: 5vmin;
+    }
+    #order-section {
+        width: 100%;
+    }
+    #order-head {
+        font-size: 7vmin;
+    }
+    .container img {
+        width: 150px;
+        height: 150px;
+    }
+    .container {
+        width: 16%;
+        height: 200px;
+        margin-left: 2rem;
+    }
+    .container h3 {
+        padding-bottom: 3rem;
+        font-size: 2.8vmin;
+    }
+    #head-menu {
+        font-size: 8.5vmin;
+    }
+    
+    /* Gallery Section */
+
+    .bubble-partea h2 {
+        font-size: 9.5vmin;
+    }
