@@ -1236,7 +1236,7 @@ font-size: 3.3vmin;
 
 /* Media Queries for mobile screen sizes from 768px wide and down */
 
-@media screen and (max-width: 768px) {
+
 /* Header and Navbar */
     .hamburger,
     .toggle-menu {
@@ -1480,40 +1480,121 @@ font-size: 3.3vmin;
     .smoothies-series {
         font-size: 3.6vmin;
     }
+    #toppings-section {
+        padding-top: 0;
+    }
     .head-toppings {
         font-size: 3.6vmin;
         padding-top: 0;
     }
     .toppings .boba-left {
         width: 30%;
-        max-width: 240px;
-        height: 250px;
+        max-width: 180px;
+        height: 200px;
     }
     .toppings .boba-mid {
         width: 30%;
-        max-width: 240px;
-        height: 250px;
+        max-width: 180px;
+        height: 200px;
         font-size: 2.4vmin;
         text-align: center;
     }   
     .toppings .boba-right {
         width: 30%;
-        max-width: 240px;
-        height: 250px;
+        max-width: 180px;
+        height: 200px;
     }
     
     .boba-left img {
-        width: 230px;
-        height: 240px;
+        width: 180px;
+        height: 200px;
     }
     .boba-right img {
-        width: 230px;
-        height: 240px;
+        width: 180px;
+        height: 200px;
     }
     .boba-mid h2 {
-        font-size: 3vmin;
+        font-size: 2.7vmin;
+    }
+    .signup-btn a {
+        width: 150px;
+        height: 50;
+        font-size: 4.3vmin;
+    }
+
+/*footer section*/
+
+    .footer-logo a img {
+        padding-top: 1rem;
+        border-radius: 8px;
+    }
+              
+    #footer-section {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    #footer-section .column {
+        text-align: center;
+        font-size: 4vmin;
+    }
+
+    .column h2 {
+        font-size: 4vmin;
+    }
+
+    .column li {
+        font-size: 3.6vmin;
+    }
+
+    /* Form Page */
+    .form-section {
+        display: block;
+        height: 600;
+    }
+    .form-row {
+        flex-direction: column;
+      }
+    
+      .form-img {
+        display: none;
+      }
+      
+      .sign-up {
+        width: 100%;
+        max-width: none;
+        height: 600px;
+        position: relative;
+        background-image: url('../img/boba-tea2.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+    
+      .sign-up::before {
+        content: ''; /* Required for pseudo-element */
+        position: absolute;
+        top: 0;
+        left: 25%;
+        width: 50%;
+        height: 100%;
+        background-color:  #FF9636;
+        opacity: 0.5;
     }
     
+      .sign-up h2,
+      .sign-up h3,
+      .sign-up h4,
+      .sign-up #form-fill {
+        position: relative;
+        color: #F8FAF9;
+    }
 
+      .sign-up #form-fill {
+        padding-bottom: 2.3rem;
+    }
 
-    
+    .sign-up h2 {
+        padding-top: 1.6rem;
+    }
+
+}
