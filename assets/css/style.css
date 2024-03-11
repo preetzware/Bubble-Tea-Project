@@ -1845,17 +1845,28 @@ font-size: 3.3vmin;
     /*  Milk Series  */
 
     #head-menu {
-        font-size: 12vmin;
+        font-size: 7vmin;
+    }
+
+    .milk-series {
+        font-size: 3.6vmin;
     }
 
     .container-milk {
-        flex-direction: column; /* Display items in a single column */
-        align-items: center; /* Center items horizontally */
-        fle
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .milk-tea {
-        width: 90%; /* Set a width to fit the container */
-        margin: 0 auto 1rem; /* Center the items horizontally */
+    .img-milktea {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
     }
-}
+    
+    .milk-tea {
+        width: 50%;
+        margin: 1%;
+    }
+    .menu-price {
+    font-size: 3.3vmin;
+    }
