@@ -1632,9 +1632,10 @@ font-size: 3.3vmin;
     }
   
     #hero-text {
-        height: 80px;
+        height: 70px;
         font-size: 3vmin;
         letter-spacing: 4px;
+        padding-top: 1rem;
     }
 
     */ Welcome section */
@@ -1684,7 +1685,8 @@ font-size: 3.3vmin;
 
     /* Offers section */
     #deals-section {
-        margin: 2rem 0; /* Remove margin on the sides */
+        margin: 1.6rem 0 0 0;
+        
     }
 
     .deals {
@@ -1729,17 +1731,18 @@ font-size: 3.3vmin;
     /* About Boba Section */
 
     #about-boba {
-        width: 90%;
-        flex-direction: column;
+        width: 100%;
         margin: 0;
         overflow: hidden;
         padding: 0;
     }
-    
-    .heading {
-        padding-bottom: 2rem;
+
+    .heading h2 {
+        font-size: 6vmin;
+        margin: 0;
+        padding: 0;
     }
-    
+      
     .boba {
         display: flex;
         flex-direction: column;
@@ -1751,9 +1754,10 @@ font-size: 3.3vmin;
     
     .boba .text-boba {
         
-        width: 300px;
+        width: 250px;
         height: 350px;
         margin: auto;
+        align-items: center;
     }
     
     .bubbles-tea {
@@ -1768,22 +1772,18 @@ font-size: 3.3vmin;
         height: 275px;
     }
     
+    .text-boba p {
+        width: 100%;
+        text-align: justify;
+        align-items: center;
+        margin: 0;
+    }
+
     .text-boba h2 {
-        padding-bottom: 0.5rem;
-        font-size: 3vmin;
         text-align: center;
-        padding-top: 0;
+        font-size: 4vmin;
     }
     
-    .text-boba p {
-        padding-top: 1rem;
-        line-height: 1;
-        letter-spacing: 0;
-        font-size: 3vmin;
-        width: 350px;
-        height: 350px;
-        padding-bottom: 0;
-    }
     .text-boba hr {
         margin-left: 3rem;
     }
