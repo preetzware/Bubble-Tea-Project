@@ -567,13 +567,13 @@ line-height: 1rem;
     padding-top: 2rem;
     font-family: "Inter", sans-serif;
 }
-
-.milk-tea {
-    width: 16%;
-    height: 200px;
-    display: inline-block;
-    align-items: center;
-    text-align: center;
+.container-milk {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding-top: 1.2rem;
+    font-size: 2vmin;
 }
 
 .img-milktea {
@@ -582,10 +582,18 @@ line-height: 1rem;
     width: 150px;
     border: none;
     background: no-repeat center;
-    display: inline-block;
     border-radius: 50%;
     padding-bottom: 0.5rem;
+    margin: 0;
 }
+.milk-tea {
+    width: 16%;
+    height: 200px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
 
 .milk-series {
     width: 100%;
@@ -1605,6 +1613,7 @@ font-size: 3.3vmin;
 /* Media Queries for mobile screen sizes from 594px wide and down */
 
 @media screen and (max-width: 594px) {
+    
     .logo {
         width: 75px;
         height: 75px;
@@ -1790,26 +1799,22 @@ font-size: 3.3vmin;
 
     /*  Menu Section  */
 
-    #hero-image img {
-        width: 100%;
-        height: auto;
-    }
-    #head-menu {
-        font-size: 8vmin; /* Adjust font size for the menu heading */
-    }
-
-    #menu-text {
+     #menu-text {
         height: auto;
         padding: 20px;
     }
 
     #menu-text h2 {
-        font-size: 6vmin; 
+        font-size: 5.5vmin; 
         text-align: center; 
-        letter-spacing: 3px;/
+        letter-spacing: 3px;
     }
     
     /* Order Section */
+
+    #head-menu {
+        font-size: 8vmin;
+    }
 
     #order-section {
         flex-direction: column;
@@ -1837,85 +1842,46 @@ font-size: 3.3vmin;
         margin: 1.5rem 0; 
     }
 
-     /* Milk Tea Section */
-    
-     .container-milk {
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center align items */
-    }
-    .milk-tea,
-    .fruit-tea,
-    .slush-tea,
-    .smoothies-tea {
-        width: 100%; /* Set width to 100% for single column */
-        margin-bottom: 1rem; /* Added margin to create space between items */
+    /*  Milk Series  */
+
+    #head-menu {
+        font-size: 12vmin;
     }
 
-
-    /* Gallery Section */
-
-    .bubble-partea h2 {
-        font-size: 3vmin;
-    }
-
-    .gif-partea img {
-        width: 100px;
-        height: 100px;
-    }
-
-    #gallery img {
-        width: 250px;
-        height: 250px;
-        margin: 10px 0;
-    }
-
-    /* Form Page */
-
-
-
-    /* Header and Navbar */
-   
-    .toggle-menu {
-        position: absolute;
-        width: 25px;
-        height: 100%;
-    }
-            
-    .header {
-        padding: 10px 20px;
-        background-color: #06141B;
-    }
-
-    .menu {
-        justify-content: start;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        background-color:#FAD02C;
-        color:#F8FAF9;
-        width: 200px;
-        height: 100%;
-        padding-top: 100px;
-    }
-    .menu li {
+    #milk-tea-section {
         width: 100%;
     }
-    .menu li a {
-        padding: 30px;
-        transition: all 0.3s ease 0s;
-        cursor: pointer;
+
+    .container-milk {
+       width: 80%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       margin: 0;
+       padding-top: 1.2rem;
+       font-size: 2vmin;
     }
-    .menu li a:hover {
-        padding: 30px;
-        font-size: 24px;
-        cursor: pointer;
-        color: #0000FF;
-        box-shadow: #C55FFC 3px 3px 6px 0px inset,
-        #ffffff80 -3px -3px 6px 1px inset;
+
+    .milk-tea {
+        flex: 0 0 16%; /* Set flex basis to 16% */
+        height: auto; /* Allow height to adjust based on content */
+        max-width: 150px; /* Set maximum width */
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px; /* Add margin between items */
     }
     
-    
+    .img-milktea {
+        position: relative;
+        height: auto; /* Allow height to adjust based on content */
+        width: 100%; /* Adjust width to fill container */
+        max-width: 150px; /* Set maximum width */
+        border: none;
+        background: no-repeat center;
+        border-radius: 50%;
+        padding-bottom: 0.5rem;
+        margin: 0 auto; /* Center the image */
+    }
+
+
