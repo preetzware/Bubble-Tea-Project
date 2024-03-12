@@ -34,7 +34,16 @@ The color scheme for this website was greatly inspired by an existing store's lo
 [image]
 
 ### Typography
+
 Three fonts imported from Google fonts were largely used throughout this website, namely 'Barriecito' for the hero image text overlay, 'Charm'(Bold 700) for the headings and 'Inter'(Regular 400) for the rest parts. Fallback fonts such as Sans-serif, Cursive and System-sui were also added as suggested by Google fonts on the 'How to use' section.
+
+## Imagery
+Pinterest was mainly used to search, save and organize the images in a board to be used for the project, with exception to some images bearing the 'Bobo tea' logo which were downloaded from the Instagram page of the Bobo tea shop with the permission of the owner.
+
+## Wireframes
+The first and foremost wireframes for this website were made on paper and thereafter modified slightly when it was created digitally using Balsamiq.com. The website consists of five pages in total - the Home page, Menu page, Gallery page, Sign Up page and a Thank You page where subscribers are redirected to upon signing-up. 
+
+
 
 
 
