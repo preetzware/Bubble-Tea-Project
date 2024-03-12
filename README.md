@@ -38,11 +38,25 @@ The color scheme for this website was greatly inspired by an existing store's lo
 Three fonts imported from Google fonts were largely used throughout this website, namely 'Barriecito' for the hero image text overlay, 'Charm'(Bold 700) for the headings and 'Inter'(Regular 400) for the rest parts. Fallback fonts such as Sans-serif, Cursive and System-sui were also added as suggested by Google fonts on the 'How to use' section.
 
 ## Imagery
-Pinterest was mainly used to search, save and organize the images in a board to be used for the project, with exception to some images bearing the 'Bobo tea' logo which were downloaded from the Instagram page of the Bobo tea shop with the permission of the owner.
+Pinterest was mainly used to search, save and organize the images in a board to be used for the project, with exception to some images bearing the 'Bobo tea' logo which were downloaded from the Instagram page of the Bobo tea shop with the permission of the owner. The quality of the images were tested on (https://fineartprinting.com.sg/image-analyser/#)
 
 ## Wireframes
 The first and foremost wireframes for this website were made on paper and thereafter modified slightly when it was created digitally using Balsamiq.com. The website consists of five pages in total - the Home page, Menu page, Gallery page, Sign Up page and a Thank You page where subscribers are redirected to upon signing-up. 
 
+## Features
+
+- Navigation Bar
+The navigation bar for this website is featured on each page, with the business logo positioned on the left side and all the other navigational links situated to the right side. This style is set for devices with max screen size 950px and 1200px and this is how it looks:
+
+[image]
+
+For small screen sizes such as screen size max 768px and max 594px and down, the navigation bar collapses into a hamburger menu on the right corner while the logo hangs still on the left side. Upon clicking on the hamburger menu, it will drop down to feature the rest pages which are highlighted into a box shadow upon hovering.
+
+[img]
+
+- ## Footer
+The footer sits at the bottom of each page, adding spotlight to the operating days and hours of business, the contact information of the business such as email, address and phone number, and the social media links like Facebook, Instagram, Twitter and Yelp to connect to the business.
+ [img]
 
 
 
