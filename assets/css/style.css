@@ -11,10 +11,8 @@ html {
 }
 
 body {
-    font-family: "Inter", sans-serif "Charm", "Barriecito", system-ui;
     font-weight: 300;
     color: black;
-    overflow-x: hidden;
     width: 100%;
     height: 100%;
 }
@@ -105,6 +103,7 @@ body {
     top: 10px;
     width: 35px;
 }
+
 .toggle-menu {
     position: absolute;
     width: 30px;
@@ -588,6 +587,7 @@ line-height: 1rem;
     padding-bottom: 0.5rem;
     margin: 0;
 }
+
 .milk-tea {
     width: 16%;
     height: 200px;
@@ -595,7 +595,6 @@ line-height: 1rem;
     align-items: center;
     text-align: center;
 }
-
 
 .milk-series {
     width: 100%;
