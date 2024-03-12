@@ -26,6 +26,16 @@
 4. To be able to easily register themselves on the sign-up page to receive our marketing emails about all weekly offers and discounts.
 5. To be able to acknowledge how bubble tea has become the hip beverage of this era and is embraced by diverse cultures by viewing the gallery section and relating to it.
 
+## Design
+
+### Color Scheme
+The color scheme for this website was greatly inspired by an existing store's logo. It is made up of a triadic color scheme that not only creates a classy and dynamic effect but also a good contrast throughout. By uploading the logo on the Canva palette generator,  the following color combinations were created in hex value: 
+
+[image]
+
+### Typography
+Three fonts imported from Google fonts were largely used throughout this website, namely 'Barriecito' for the hero image text overlay, 'Charm'(Bold 700) for the headings and 'Inter'(Regular 400) for the rest parts. Fallback fonts such as Sans-serif, Cursive and System-sui were also added as suggested by Google fonts on the 'How to use' section.
+
 
 
 
