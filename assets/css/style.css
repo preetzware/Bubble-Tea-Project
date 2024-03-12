@@ -1853,20 +1853,23 @@ font-size: 3.3vmin;
     }
 
     .container-milk {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
+    .milk-tea {
+        width: 45%; 
+        margin: 10px; 
+        text-align: center;
+    }
+    
     .img-milktea {
         height: auto;
         width: 100%;
         border-radius: 10px;
     }
-    
-    .milk-tea {
-        width: 50%;
-        margin: 1%;
-    }
+ 
     .menu-price {
     font-size: 3.3vmin;
     }

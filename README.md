@@ -1,4 +1,20 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Boba Tea
+
+![AmIResponsiveImage] 
+[View the live website here.]
+
+
+## Introduction
+
+The Boba Tea is a business website for an imaginary Taiwanese-style drink shop franchise based off multiple real brands such as Chatime, Gong Cha, Boba Guys, Coco, and so forth. The main objective of this website is to create a fully functional digital platform that will provide information on and showcase the different varieties of bubble tea products to target and attract potential customers from all walks of life.
+
+Web users can easily navigate this website   through the heading links provided in the navigation bar, and also with the support of button clicks and other informative links provided at different stages in the pages. These links will ultimately direct the visitors to the exact information they are looking for - from the Home page featuring information about the store and promotional items to a vibrant display of informative bubble tea images in the Menu page, a Gallery page showing the popularity Boba tea across every culture in the world and finally, a Sign-Up page enabling users to independently register and gain access to all the promotional offers available every week. The footer, on the other hand, displays additional information such as operating business Hours, Contact and Social Media Links for further browsing. All in all, this website has been designed with a responsive approach to allow users of multiple device sizes to easily navigate through the world of Bobo tea!
+
+## User Experience
+
+
+
+(https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Preety Ramdin,
 
