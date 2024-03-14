@@ -604,9 +604,10 @@ line-height: 1rem;
     color: #F8FAF9;
 }
 
-.heading-milk {
+.heading-milk, .heading-fruit, .heading-slush, .heading-smoothies {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    font-size: 21px;
 }
 
 .menu-price {
@@ -1048,31 +1049,37 @@ p {
     .heading h2 {
         font-size: 7.3vmin;
     }
-    
-    /*  Menu Section  */
-    
+
     #menu-text h2 {
         font-size: 7.5vmin;
     }
+    
+    /*  Menu Section  */
+       
     #order-section {
         width: 100%;
     }
+
     #order-head {
         font-size: 7vmin;
     }
+
     .container img {
         width: 150px;
         height: 150px;
     }
+
     .container {
         width: 16%;
         height: 200px;
         margin-left: 2rem;
     }
+
     .container h3 {
         padding-bottom: 3rem;
         font-size: 2.8vmin;
     }
+
     #head-menu {
         font-size: 8.5vmin;
     }
