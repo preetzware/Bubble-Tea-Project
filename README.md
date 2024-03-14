@@ -1,7 +1,7 @@
 # Boba Tea
 
-!![AmIResponsiveImage]()
-[View the live website here.]
+![AmIResponsiveImage](assets/img/Responsive-img.JPG)
+[View the live website here.] (https://preetzware.github.io/Bubble-Tea-Project/)
 
 
 ## Introduction
@@ -29,16 +29,22 @@
 ## Design
 
 ### Color Scheme
-The color scheme for this website was greatly inspired by an existing store's logo. It is made up of a triadic color scheme that not only creates a classy and dynamic effect but also a good contrast throughout. By uploading the logo on the Canva palette generator,  the following color combinations were created in hex value: 
+The color scheme for this website was greatly inspired by an existing store's logo. It is made up of a triadic color scheme that not only creates a classy and dynamic effect but also a good contrast throughout. By uploading the logo on the Coolors palette generator, the following color combinations were created in hex value: 
 
-[image]
+![Coolers palette generator results](assets/img/coolors.jpg)
+
+
+![Dominant colors used in the project](assets/img/colors-used.JPG)
 
 ### Typography
 
 Three fonts imported from Google fonts were largely used throughout this website, namely 'Barriecito' for the hero image text overlay, 'Charm'(Bold 700) for the headings and 'Inter'(Regular 400) for the rest parts. Fallback fonts such as Sans-serif, Cursive and System-sui were also added as suggested by Google fonts on the 'How to use' section.
 
+![Fonts used in the project](assets/img/fonts.JPG)
+
 ## Imagery
-Pinterest was mainly used to search, save and organize the images in a board to be used for the project, with exception to some images bearing the 'Bobo tea' logo which were downloaded from the Instagram page of the Bobo tea shop with the permission of the owner. The quality of the images were tested on (https://fineartprinting.com.sg/image-analyser/#)
+Pinterest was mainly used to search, save and organize the images in a board to be used for the project, with exception to some images bearing the 'Bobo tea' logo which were downloaded from the Instagram page of the Bobo tea shop with the permission of the owner. The quality of the images were tested on (https://fineartprinting.com.sg/image-analyser/#).
+
 
 ## Wireframes
 The first and foremost wireframes for this website were made on paper and thereafter modified slightly when it was created digitally using Balsamiq.com. The website consists of five pages in total - the Home page, Menu page, Gallery page, Sign Up page and a Thank You page where subscribers are redirected to upon signing-up. 
