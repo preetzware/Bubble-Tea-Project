@@ -1,6 +1,6 @@
 # Boba Tea
 
-![AmIResponsiveImage] 
+!![AmIResponsiveImage]()
 [View the live website here.]
 
 
@@ -58,7 +58,101 @@ For small screen sizes such as screen size max 768px and max 594px and down, the
 The footer sits at the bottom of each page, adding spotlight to the operating days and hours of business, the contact information of the business such as email, address and phone number, and the social media links like Facebook, Instagram, Twitter and Yelp to connect to the business.
  [img]
 
+- ## Home page
+The home page features the hero image which showcases a variety of captivating and mouthwatering in-house prepared bubble teas, with a text overlayed on it that triggers the desire for the drinks. Below it, an image and some information about the store are included, together with a ‘View Menu’ button in case the visitor can’t wait to see the menu in the next page. Another section below, features the weekly promotional items for registered members only, including a sign up offer link that will direct those interested to the Sign-Up page. And last but not least, Boba section gives a visitor who’s new to bubble tea an idea of what kind of drink it is, where does it originates from and how good it is.
 
+- ## Menu page
+The menu page is actually the icing on the cherry! First of all. Provides a step to step guide about how to order bubble tea so that time is saved and service will be faster at the counter. The order section provides a wide range of vibrant bubble teas highlighting so many flavours and their prices. 
+
+- ## Gallery page
+
+
+- ## Sign Up page
+
+### Future Implemenations
+At some point in the future, I would like to add an order button in the navbar and 
+link it to a page which will be designed accordingly for online delivery orders or click and collect orders which will be beneficial to the business will also meet the users purpose.
+
+## Accessibility
+
+Generally, aria labels have been placed in all the pages as well as alt text on images to make it more accessible for users with low vision, users with mobility disabilities and users with memory loss. 
+
+## Technologies Used
+
+- Github - used for version control, site storage and for deploying my project.
+- Gitpod - this is the IDE that I used to write, edit, commit and push my code to Github.
+HTML 5 - used to build the core of my website.
+CSS - used to style all elements of my website.
+DevTools - used to test the responsiveness of the website and check for bugs.
+Google Fonts - used to import the fonts for the website.
+Font Awesome - used to import social media icons.
+Pinterest - used to source website imagery.
+MYBOBOTEA.com - used to source website imagery.
+TinyPNG - used to compress all website imagery.
+Favicon.io - used to create favicon for my website.
+Balsamiq - used to create the wireframes for the initial design process of my website.
+Am I Responsive? - used to test the responsiveness of the website.
+
+## Languages Used
+HTML 5, CSS
+
+## Libraries and programmes
+Github was used for version control, site storage and for deploying my project to Github pages. Gitpod is the IDE I used to write, edit, commit and push my code to Github.
+
+## Deployment
+My website was deployed early on Github pages.
+
+### Local Deployment 
+
+* Steps to clone:
+Log into your account on GitHub
+Go to the repository of this project https://github.com/preetzware/Bubble-Tea-Project.git
+Click on the code button, and copy your preferred clone link.
+Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
+* Steps to fork the repository:
+
+Log in (or sign up) to Github.
+Go to the repository for this project, https://github.com/kb5991/17agency
+Click the Fork button in the top right corner.
+
+## Testing
+
+## Manual Testing
+W3C Validator was used to validate the HTML 5 code written on all pages for my website
+
+
+
+## Lighthouse Testing
+Google Chrome's Lighthouse Developer Tool was utilized for gauging the performance and accessibility measures of the website. Initially, the performance and speed was slowed down greatly by large images even though they had been compressed, sometimes twice, using TinyPNG.com. I had then converted these images from jpeg format to webp, which significantly improved the performance of my website. Below are the final Lighthouse results.
+(img)
+
+Device Testing
+The website was tested on the following devices:
+
+iPhone 12 Pro
+
+iPhone 14
+
+iPhone 15 Pro
+
+iPad Air 11"
+
+Macbook Pro 13"
+
+The website was tested on the following browsers:
+
+Google Chrome
+
+Safari
+
+Microsoft Edge
+
+##Bugs
+
+
+##Credits
 
 
 
