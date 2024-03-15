@@ -505,18 +505,16 @@ footer {
 #menu-text {
     width: 100%;
     height: 130px;
-    background-color: #55d142c0;
+    background-color: #55d142ce;
+    background-size: cover;
     bottom: 0;
     left: 0;
+    padding-top: 1.3rem;
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center; /* Center vertically */
-}
-
-#menu-text h2 {
     font-family: "Barriecito", system-ui;
-    font-size: 9.5vmin;
+    font-size: 6vmin;
     font-weight: 400;
     color: #F8FAF9;
     letter-spacing: 6px;
@@ -526,10 +524,6 @@ footer {
 
 #order-section {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
     background-color: #B40052;
     margin: 2rem 0;
     padding-bottom: 2rem;
@@ -537,21 +531,26 @@ footer {
 
 #order-head {
     font-family: "Charm", cursive;
-    font-size: 10vmin;
+    font-size: 7.2vmin;
     font-weight: bold;
     text-align: center;
     padding-top: 2rem;
 }
 
+.large-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .container {
     width: 18%;
-    display: inline-block;
     align-items: center;
     text-align: center;
     font-family: "Inter", sans-serif;
     font-size: 3.6vmin;
     align-content: center;
-    margin-left: 0.9rem;
+    padding-top: 1.6rem;
 }
 
 .container img {
@@ -575,7 +574,7 @@ footer {
 
 #milk-tea-section {
     width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-top: 2rem;
     font-family: "Inter", sans-serif;
 }
@@ -631,7 +630,7 @@ footer {
 
 #fruit-tea-section {
     width: 100%;
-    padding-bottom: 7rem;
+    padding-bottom: 5rem;
     padding-top: 4rem;
     font-family: "Inter", sans-serif;
 }
@@ -1078,12 +1077,11 @@ footer {
     /*  Menu Section  */
        
     #order-section {
-        width: 100%;
-       
+        width: 100%;  
     }
 
     #order-head {
-        font-size: 7vmin;
+        font-size: 6vmin;
     }
 
     .container img {
@@ -1092,14 +1090,16 @@ footer {
     }
 
     .container {
+        padding-top: 1.6rem;
         width: 16%;
-        
         margin-left: 2rem;
     }
 
+    .container h2 {
+        font-size: 4.3vmin;
+
     .container h3 {
-        padding-bottom: 3rem;
-        font-size: 2.8vmin;
+       font-size: 3.5vmin;
     }
 
     #head-menu {
@@ -1161,6 +1161,7 @@ footer {
     }
 
     /*  Offers Section  */
+
     #deals-section {
         width: 100%;
         margin: 0;
@@ -1237,26 +1238,31 @@ footer {
 
     /*  Menu Section  */
 
+    /* Text overlay on hero image */
+
+    #menu-text h2 {
+        font-size: 7.5vmin;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Order Section */
+
     #order-section {
         width: 100%;
     }
 
     #order-head {
-        font-size: 7vmin;
+        font-size: 5.5vmin;
     }
 
     .container img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .large-container {
-        display: flex;
-        justify-content: space-evenly;
+        width: 125px;
+        height: 125px;
     }
 
     .container {
-        width: 14%;
+        width: 16%;
     }
 
     .container h3 {
@@ -1267,11 +1273,7 @@ footer {
         font-size: 4vmin;
     }
 
-    #menu-text h2 {
-        font-size: 7.5vmin;
-        display: flex;
-        flex-wrap: wrap;
-    }
+    /* Milk Tea section */
 
     #head-menu {
         font-size: 9vmin;
@@ -1298,6 +1300,10 @@ footer {
 
     .milk-tea, .fruit-tea, .slush-tea, .smoothies-tea {
         width: 15%;
+    }
+
+    #milk-tea-section, #slush-tea-section, #smoothies-tea-section {
+        padding-bottom: 0;
     }
 
     .menu-price {
@@ -1501,37 +1507,46 @@ footer {
     }
 
     /*  Menu Section  */
+
     #menu-text h2 {
-        font-size: 5vmin;
+        font-size: 7vmin;
     }
+
+    /* Order Section */
+
     #order-section {
         width: 100%;
-        flex-direction: column;
-        align-items: center;
     }
     
     #order-section #order-head {
         padding-top: 2rem;
     }
 
-    #order-section .large-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 600px; 
-        margin: 0 auto;
+    .large-container {
+        width: 100%;
+       
+    }
+
+    .container {
+        width: 15%;
+    }
+
+    .container img {
+        width: 100px;
+        height: auto;
+        padding: 0;
+    }
+
+    .container h2 {
+        font-size: 4vmin;
+    }
+
+    .container h3 {
+        font-size: 3vmin;
     }
  
-    .container {
-        width: calc(30% - 0.5rem); 
-        margin: 1rem 0.25rem 3rem 0.25rem; 
-    }
-
-    .container:nth-child(4),
-    .container:nth-child(5) {
-        width: 40%;
-    }
-
+ 
+   
     /* Milk Tea Section */
 
     #head-menu {
@@ -1638,11 +1653,11 @@ footer {
     }
 
     .column h2 {
-        font-size: 4vmin;
+        font-size: 3.4vmin;
     }
 
     .column li {
-        font-size: 3.6vmin;
+        font-size: 3.2vmin;
     }
 
     /* Gallery Page */
@@ -1792,6 +1807,7 @@ footer {
 
     .title h2 {
         font-size: 9vmin;
+        padding-bottom: 1.6rem;
     }
 
     .text-left h2 {
@@ -1865,7 +1881,7 @@ footer {
     }
 
     .heading h2 {
-        font-size: 6vmin;
+        font-size: 7vmin;
         margin: 0;
         padding: 0;
     }
@@ -1913,11 +1929,6 @@ footer {
         margin-left: 3rem;
     }
 
-     /*  Footer Section  */
-    
-    
-    
-
     /*  Menu Section  */
 
      #menu-text {
@@ -1937,12 +1948,6 @@ footer {
         font-size: 8vmin;
     }
 
-    #order-section {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
     #order-head h2 {
         font-size: 7.8vmin;
     }
@@ -1951,27 +1956,41 @@ footer {
         padding-top: 1rem;
     }
 
-    #order-section .large-container {
-        padding: 0;
-    }
-
     .large-container {
         width: 100%; 
+        height: auto;
         margin: 0;
         display: flex;
         flex-direction: column;
         align-items: center; 
+        padding: 0;
     }
 
     .container {
-        width: 400px; 
-        margin: 1.5rem 0; 
+        width: 100%; 
+        height: auto;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .container img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container h2 {
+        font-size: 5vmin;
+    }
+
+    .container h3 {
+        font-size: 5vmin;
+        padding-bottom: 0;
     }
 
     /*  Milk Series  */
 
     #head-menu {
-        font-size: 7vmin;
+        font-size: 8vmin;
     }
 
     .container-milk {
@@ -1985,12 +2004,12 @@ footer {
     .slush-tea,
     .smoothies-tea {
         width: 35%; 
-        margin: 10px 20px 50px 20px; 
+        margin: 10px 20px 0 20px; 
         text-align: center;
     }
     
     .img-milktea {
-        height: 165px;
+        height: 175px;
         width: 100%;
         border-radius: 10px;
     }
@@ -2015,7 +2034,7 @@ footer {
     /* Toppings Section */
 
     #toppings-section {
-        padding-top: 1rem; 
+        padding-top: 1.5rem; 
     }
 
     .toppings {
@@ -2048,8 +2067,19 @@ footer {
 
      /* Gallery Page */
 
-    .gif-partea img {
-        height: 100px;
-        width: 100px;
+    .bubble-partea h2 {
+        font-size: 9vmin;
     }
+
+    .gif-partea img {
+        height: 85px;
+        width: 80px;
+    }
+
+    /* Thank you page */
+
+    .overlay {
+        padding: 20px;
+    }
+}
 
