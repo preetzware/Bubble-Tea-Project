@@ -170,7 +170,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: "Barriecito", system-ui;
-    font-size: 8vmin;
+    font-size: 7vmin;
     font-weight: 400;
     color: #F8FAF9;
     letter-spacing: 6px;
@@ -234,14 +234,14 @@ hr {
 }
 
 .text-left h2 {
-    font-size: 20px;
+    font-size: 23px;
     padding-bottom: 0.5rem;
 }
 
 .text-left p {
     padding-top: 2rem;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
     padding-bottom: 3rem;
 }
