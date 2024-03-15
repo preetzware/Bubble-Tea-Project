@@ -190,12 +190,12 @@ span {
     margin-top: 2rem;
 }
 
-.title {
+.title h2 {
     flex: 1 1 100%; 
     text-align: center;
-    font-size: 8vmin;
+    font-size: 10vmin;
     font-family: "Charm", cursive;
-    padding-bottom: 4.5rem;
+    padding-bottom: 3.6rem;
 }
 
 .row {
@@ -217,7 +217,7 @@ span {
 .row .store-right {
     width: 45%;
     max-width: 410px;
-    height: 400px;
+    height: 380px;
 }
 
 .store-right img{
@@ -251,10 +251,11 @@ hr {
     margin: 0 auto;
     background-color: #06141B;
     color: #F8FAF9;
-    border: 3px solid #F8FAF9;
-    border-radius: 4px;
+    border: 3px solid #06141B;
+    border-radius: 5px;
     text-decoration: none;
-    padding: 20px 20px;
+    font-weight: bold;
+    padding: 18px 18px;
 }
 
 .button:hover {
@@ -278,7 +279,7 @@ hr {
 
 #deals-section h2 {
     text-align: center;
-    font-size: 11vmin;
+    font-size: 10vmin;
     font-family: "Charm", cursive;
     font-weight: 700;
     padding-bottom: 2rem;
@@ -286,7 +287,7 @@ hr {
 
 #deals-section h2 #members {
     font-family: "Inter", sans-serif;
-    font-size: 6.7vmin; 
+    font-size: 6vmin; 
     font-weight: 600;
 }
 
@@ -352,9 +353,9 @@ a:hover {
     margin-bottom: 2rem; 
 }
 
-.heading {
+.heading h2 {
     text-align: center;
-    font-size: 7vmin;
+    font-size: 8vmin;
     font-family: "Charm", cursive;
     font-weight: 700;
     padding-bottom: 4rem;
@@ -386,14 +387,14 @@ a:hover {
 }
 
 .text-boba h2 {
-    padding-bottom: 0.5rem;
+    font-size: 18px;
 }
 
 .text-boba p {
     padding-top: 1rem;
     line-height: 1.1;
     letter-spacing: 0;
-    font-size: 17px;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -449,8 +450,19 @@ footer {
 }
 
 .column li a {
-text-decoration: none;
-line-height: 1rem;
+    text-decoration: none;
+    line-height: 1rem;
+}
+
+.mid-column .list a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.mid-column a:hover {
+    text-decoration: underline;
+    color: #0000FF;
 }
 
 #footer-links {
@@ -871,7 +883,7 @@ line-height: 1rem;
 }
 #gallery img:hover {
     cursor: pointer;
-    transform: scale(1.5); 
+    transform: scale(1.3); 
 }
 
 /*  Form page - Sign Up Section  */
@@ -886,7 +898,7 @@ line-height: 1rem;
     
 .form-row {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center; 
     width: 80%; 
     margin: 0 auto;  
@@ -895,24 +907,24 @@ line-height: 1rem;
 .form-img {
     display: flex;
     flex: 1; 
-    padding: 10px; 
+    padding: 10px;
+    height: 520px;
+    overflow: hidden;
 }
 
 .form-img img {
-    width: 500px;
-    height: 520px;
-    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .sign-up {
     flex: 1; 
     background-color: #FAD02C;
     padding: 10px; 
-    width: 500px;
-    height: 520px;
+    height: 500px;
     font-family: "Inter", sans-serif;
 }
-
 
 .sign-up h2 {
     text-align: center;
@@ -941,24 +953,23 @@ line-height: 1rem;
 }
 
 .signup-button {
+    display: inline-block;
+    padding: 10px 20px;
     background-color: #06141B;
     color: #F8FAF9;
-    height: 70px;
-    width: 170px;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     border: 3px #06141B;
-    border-radius: 0.3em;
+    border-radius: 5px;
     text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 .signup-button:hover {
     background-color: #B9B7BD;
-    color:#F8FAF9;
-    font-weight: bold;
-    opacity:1;
-    
+    color: white;  
+    text-decoration: none;
 }
 
 /* Thank You page */
@@ -967,7 +978,7 @@ line-height: 1rem;
     position: relative;
     width: 100%;
     height: calc(100vh - 100px);
-    border: solid #fff;
+    border:17px solid #fff;
 }
 
   .background-image img {
@@ -984,7 +995,7 @@ line-height: 1rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: #00000080; 
     padding: 20px;
     color: #fff; 
 }
@@ -995,18 +1006,19 @@ line-height: 1rem;
     font-family: 'Inter', sans-serif;
 }
 
-h2 {
-    font-size: 3rem;
+.content h2 {
+    font-size: 7vmin;
     margin-bottom: 1rem;
 }
 
-p {
-    font-size: 1.5rem;
+.content p {
+    font-size: 4vmin;
 }
 
 #discount-code {
     background-color: #06141B;
-    font-size: 3rem;
+    font-size: 5vmin;
+    font-weight: bold;
 }
 
 /*  Media Queries Section */
@@ -1112,9 +1124,9 @@ p {
     }
 
     /*  Welcome Section  */
+
     #welcome {
         width: 100%;
-        margin-bottom: 2rem;
     } 
 
     .text-left h2 {
@@ -1385,29 +1397,36 @@ p {
     }
     
     /*  Welcome Section  */
+
     #welcome {
         width: 100%;
         margin-bottom: 0;
-    }  
+    } 
+
     .title h2 {
         font-size: 7.5vmin;
     }
+
     .text-left h2 {
         font-size: 3vmin;
     }
+
     .text-left p {
         padding-top: 1rem;
         padding-bottom: 1.7rem;
         font-size: 12px;
     }
+
     .row .text-left {
         width: 275px;
         height: 300px;
     }
+
     .row .store-right {
         width: 270px;
         height: 270px;
     }
+
     .store-right img{
         height: 280px;
         width: 250px;
@@ -1556,6 +1575,7 @@ p {
         max-width: 180px;
         height: 250px;
     }
+
     .toppings .boba-mid {
         width: 30%;
         max-width: 180px;
@@ -1597,11 +1617,14 @@ p {
         font-size: 5vmin;
     }
 
-/*footer section*/
+    /* Footer Section */
 
     .footer-logo a img {
+        height: 20vh;
+        width: auto;
+        max-width: 150px;
         padding-top: 1rem;
-        border-radius: 8px;
+        border-radius: 5px;
     }
               
     #footer-section {
@@ -1611,7 +1634,7 @@ p {
 
     #footer-section .column {
         text-align: center;
-        font-size: 4vmin;
+        font-size: 3vmin;
     }
 
     .column h2 {
@@ -1622,6 +1645,13 @@ p {
         font-size: 3.6vmin;
     }
 
+    /* Gallery Page */
+
+    /* #gallery img:hover {
+    cursor: pointer;
+    transform: scale(1.5); 
+    } */
+
     /* Form Page */
     .form-section {
         display: block;
@@ -1629,13 +1659,13 @@ p {
 
     .form-row {
         flex-direction: column;
-      }
+    }
     
-      .form-img {
+    .form-img {
         display: none;
-      }
+    }
       
-      .sign-up {
+    .sign-up {
         width: 100%;
         max-width: none;
         height: 600px;
@@ -1643,35 +1673,55 @@ p {
         background-image: url('../img/boba-tea2.jpg');
         background-size: cover;
         background-position: center;
-      }
+    }
     
-      .sign-up::before {
-        content: ''; /* Required for pseudo-element */
+    .sign-up::before {
+        content: '';
         position: absolute;
         top: 0;
-        left: 25%;
-        width: 50%;
+        left: 0;
+        width: 100%;
         height: 100%;
         background-color:  #FF9636;
         opacity: 0.5;
     }
     
-      .sign-up h2,
-      .sign-up h3,
-      .sign-up h4,
-      .sign-up #form-fill {
+    .sign-up h2,
+    .sign-up h3,
+    .sign-up h4,
+    .sign-up #form-fill {
         position: relative;
         color: #F8FAF9;
     }
 
-      .sign-up #form-fill {
+    .sign-up #form-fill {
         padding-bottom: 2.3rem;
     }
 
     .sign-up h2 {
         padding-top: 1.6rem;
     }
+
+    /* Thank you page */
+   
+    .content h2 {
+        font-size: 5.8vmin;
+        margin-bottom: 1rem;
+    }
+    
+    .content p {
+        font-size: 3.5vmin;
+    }
+    
+    #discount-code {
+        font-size: 4.5vmin;   
+    }
+
+    .overlay {
+        padding: 10px;
+    }
 }
+
 /* Media Queries for mobile screen sizes from 594px wide and down */
 
 @media screen and (max-width: 594px) {
@@ -1739,19 +1789,21 @@ p {
         width: 90%; 
         max-width: unset;
     }
-    .title {
-        padding-bottom: 1.5rem;
+
+    .title h2 {
         font-size: 9vmin;
     }
 
     .text-left h2 {
         font-size: 4vmin;
+        padding-top: 0;
     }
     
     hr {
         width: 65%;
         max-width: 200px;
         margin-left: 3rem;
+        
     }
 
     .button {
@@ -1759,9 +1811,9 @@ p {
     }
 
     /* Offers section */
+
     #deals-section {
         margin: 1.6rem 0 0 0;
-        
     }
 
     .deals {
@@ -1861,6 +1913,11 @@ p {
         margin-left: 3rem;
     }
 
+     /*  Footer Section  */
+    
+    
+    
+
     /*  Menu Section  */
 
      #menu-text {
@@ -1958,7 +2015,7 @@ p {
     /* Toppings Section */
 
     #toppings-section {
-        padding-top: 1rem; /* Adjust padding for smaller screens */
+        padding-top: 1rem; 
     }
 
     .toppings {
@@ -1982,10 +2039,17 @@ p {
     }
 
     .boba-mid h2 {
-        font-size: 3.7vmin; /* Adjust font size */
+        font-size: 3.7vmin;
     }
 
     .boba-mid p {
-        font-size: 4vmin; /* Adjust font size */
+        font-size: 4vmin;
     }
-}
+
+     /* Gallery Page */
+
+    .gif-partea img {
+        height: 100px;
+        width: 100px;
+    }
+
