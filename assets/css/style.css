@@ -515,7 +515,7 @@ footer {
     display: flex;
     justify-content: center;
     font-family: "Barriecito", system-ui;
-    font-size: 8vmin;
+    font-size: 7vmin;
     font-weight: 400;
     color: #F8FAF9;
     letter-spacing: 6px;
@@ -532,7 +532,7 @@ footer {
 
 #order-head {
     font-family: "Charm", cursive;
-    font-size: 7.2vmin;
+    font-size: 7vmin;
     font-weight: bold;
     text-align: center;
     padding-top: 2rem;
@@ -569,6 +569,7 @@ footer {
     padding-top: 1rem;
     text-align: center;
     padding-bottom: 3rem;
+    font-size: 20px;
 }
 
 /*  Milk Series  */
@@ -879,7 +880,7 @@ footer {
     flex-wrap: wrap;
     width: 320px;
     height: 300px;
-    margin: 10px 0;
+    margin: 20px 10px;
     transition: transform .2s;
 }
 
