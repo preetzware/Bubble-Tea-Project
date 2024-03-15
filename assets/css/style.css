@@ -785,7 +785,7 @@ line-height: 1rem;
 #menu-line {
     height:2.5px;
     border-width:0;
-    border-style: solid#444444;
+    border-style: solid;
     background-color: #444444;
     align-items: center;
 }
@@ -877,38 +877,39 @@ line-height: 1rem;
 /*  Form page - Sign Up Section  */
 
 .form-section {
+    width: 100%;
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin: 3rem 0;     
+    margin: 3rem 0;    
 }
     
 .form-row {
     display: flex;
     justify-content: center;
     align-items: center; 
-    max-width: 1200px; 
+    width: 80%; 
     margin: 0 auto;  
 }
 
 .form-img {
+    display: flex;
     flex: 1; 
     padding: 10px; 
 }
 
 .form-img img {
-    width: 100%;
-    max-width: 500px;
-    height: 450px;
+    width: 500px;
+    height: 520px;
+    position: relative;
 }
 
 .sign-up {
     flex: 1; 
     background-color: #FAD02C;
     padding: 10px; 
-    width: 100%;
-    max-width: 500px;
-    height: 450px;
+    width: 500px;
+    height: 520px;
     font-family: "Inter", sans-serif;
 }
 
@@ -942,13 +943,14 @@ line-height: 1rem;
 .signup-button {
     background-color: #06141B;
     color: #F8FAF9;
-    height: 50px;
-    width: 130px;
+    height: 70px;
+    width: 170px;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     border: 3px #06141B;
     border-radius: 0.3em;
+    text-decoration: none;
 }
 
 .signup-button:hover {
@@ -956,6 +958,7 @@ line-height: 1rem;
     color:#F8FAF9;
     font-weight: bold;
     opacity:1;
+    
 }
 
 /* Thank You page */
@@ -964,7 +967,7 @@ line-height: 1rem;
     position: relative;
     width: 100%;
     height: calc(100vh - 100px);
-    border: px solid #fff;
+    border: solid #fff;
 }
 
   .background-image img {
@@ -989,7 +992,7 @@ line-height: 1rem;
 .content {
     text-align: center;
     color: white;
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 h2 {
@@ -1586,7 +1589,7 @@ p {
 
     .signup-btn a {
         width: 150px;
-        height: 50;
+        height: 50px;
         font-size: 4.3vmin;
     }
 
@@ -1622,8 +1625,8 @@ p {
     /* Form Page */
     .form-section {
         display: block;
-        height: 600;
     }
+
     .form-row {
         flex-direction: column;
       }
@@ -1710,7 +1713,7 @@ p {
         padding: 0 0 1rem 0;
     }
 
-    */ Welcome section */
+    /* Welcome section */
 
     #welcome {
         flex-direction: column;
@@ -1825,7 +1828,6 @@ p {
     }
     
     .boba .text-boba {
-        
         width: 250px;
         height: 350px;
         margin: auto;
