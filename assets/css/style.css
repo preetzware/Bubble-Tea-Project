@@ -323,15 +323,16 @@ hr {
     padding-top: 2rem;
     display: flex;
 }
-.box a h4 {
-    font-size: 4.5vmin;
+
+.box a h3 {
+    font-size: 4vmin;
 }
 
-.box a h5 {
+.box a h4 {
     font-size: 3.5vmin;
 }
 
-.box a h6 {
+.box a h5 {
     font-size: 2.6vmin;
 }
 
@@ -1103,6 +1104,7 @@ footer {
 
     .container h2 {
         font-size: 4.3vmin;
+    }
 
     .container h3 {
        font-size: 3.5vmin;
@@ -1193,7 +1195,7 @@ footer {
         max-width: 400px;
     }
 
-    .box h2 {
+    .box h3 {
         font-size: large;
     }
 
@@ -1470,10 +1472,6 @@ footer {
         width: 100%;
         max-width: 300px;
     }
-
-    .box h2 {
-        font-size: large;
-    }
     
     /*  Boba Section  */
 
@@ -1612,6 +1610,7 @@ footer {
         font-size: 2.4vmin;
         text-align: center;
     }   
+
     .toppings .boba-right {
         width: 30%;
         max-width: 180px;
@@ -1876,15 +1875,15 @@ footer {
     }
     
     .box a h3 {
-        font-size: 7vmin;
+        font-size: 5.5vmin;
+    }
+    
+    .box a h4 {
+        font-size: 4.8vmin;
     }
     
     .box a h5 {
-        font-size: 6vmin;
-    }
-    
-    .box a h6 {
-        font-size: 4.7vmin;
+        font-size: 3.8vmin;
     }
 
     /* About Boba Section */
@@ -2101,4 +2100,3 @@ footer {
         padding: 20px;
     }
 }
-
