@@ -517,7 +517,7 @@ line-height: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: flex-start; 
+    align-items: center;
     background-color: #B40052;
     margin: 2rem 0;
     padding-bottom: 2rem;
@@ -525,11 +525,10 @@ line-height: 1rem;
 
 #order-head {
     font-family: "Charm", cursive;
-    font-size: 11vmin;
+    font-size: 10vmin;
     font-weight: bold;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 .container {
@@ -540,7 +539,6 @@ line-height: 1rem;
     font-family: "Inter", sans-serif;
     font-size: 3.6vmin;
     align-content: center;
-    padding: 0 0 4rem 0;
     margin-left: 0.9rem;
 }
 
@@ -591,7 +589,6 @@ line-height: 1rem;
 
 .milk-tea {
     width: 16%;
-    height: 200px;
     display: inline-block;
     align-items: center;
     text-align: center;
@@ -603,6 +600,8 @@ line-height: 1rem;
     justify-content: center;
     background-color: #988780;
     color: #F8FAF9;
+    font-size: 5vmin;
+    padding: 0.4rem 0;
 }
 
 .heading-milk, .heading-fruit, .heading-slush, .heading-smoothies {
@@ -613,6 +612,7 @@ line-height: 1rem;
 
 .menu-price {
     font-size: 22px;
+    padding-top: 1rem;
 }
 
 /*  Fruit Series  */
@@ -626,7 +626,6 @@ line-height: 1rem;
 
 .fruit-tea {
     width: 16%;
-    height: 200px;
     display: inline-block;
     align-items: center;
     text-align: center;
@@ -639,6 +638,8 @@ line-height: 1rem;
     justify-content: center;
     background-color: #DB1F48;
     color: #F8FAF9;
+    font-size: 5vmin;
+    padding: 0.4rem 0;
 }
 
 .heading-fruit {
@@ -656,7 +657,6 @@ line-height: 1rem;
 
 .slush-tea {
     width: 16%;
-    height: 200px;
     display: inline-block;
     align-items: center;
     text-align: center;
@@ -668,6 +668,8 @@ line-height: 1rem;
     justify-content: center;
     background-color: #FF9F5B;
     color: #F8FAF9;
+    font-size: 5vmin;
+    padding: 0.4rem 0;
 }
 
 .heading-slush {
@@ -686,7 +688,6 @@ line-height: 1rem;
 
 .smoothies-tea {
     width: 16%;
-    height: 200px;
     display: inline-block;
     align-items: center;
     text-align: center;
@@ -698,6 +699,8 @@ line-height: 1rem;
     justify-content: center;
     background-color: #00E091;
     color: #F8FAF9;
+    font-size: 5vmin;
+    padding: 0.4rem 0;
 }
 
 .heading-smoothies {
@@ -719,6 +722,8 @@ line-height: 1rem;
     justify-content: center;
     background-color: #FFDE68;
     color: #F8FAF9;
+    font-size: 5vmin;
+    padding: 0.4rem 0;
 }
 
 .toppings {
@@ -1059,6 +1064,7 @@ p {
        
     #order-section {
         width: 100%;
+       
     }
 
     #order-head {
@@ -1072,7 +1078,7 @@ p {
 
     .container {
         width: 16%;
-        height: 200px;
+        
         margin-left: 2rem;
     }
 
@@ -1095,213 +1101,230 @@ p {
 
 @media screen and (max-width: 950px) {
 
-/*  Hero Section  */
+   /*  Hero Section  */
 
-#hero-text {
-    font-size: 5vmin;
-    padding-top: 2rem;
+    #hero-text {
+        font-size: 5vmin;
+        padding-top: 2rem;
+    }
+
+    /*  Welcome Section  */
+    #welcome {
+        width: 100%;
+        margin-bottom: 2rem;
+    } 
+
+    .text-left h2 {
+        font-size: 3.3vmin;
+    }
+
+    .text-left p {
+        padding-top: 1rem;
+        padding-bottom: 1.7rem;
+        font-size: 14px;
+    }
+
+    .row .text-left {
+        width: 320px;
+        height: 320px;
+    }
+
+    .row .store-right {
+        width: 320px;
+        height: 320px;
+    }
+
+    .store-right img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .button {
+        padding: 13px 15px;
+        font-size: 14px;
+        margin-left: 4rem;
+    }
+
+    /*  Offers Section  */
+    #deals-section {
+        width: 100%;
+        margin: 0;
+    }
+
+    #deals-section .deals {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box {
+        height: 300px;
+        width: 40%;
+        max-width: 400px;
+    }
+
+    .box img {
+        height: 300px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .box h2 {
+        font-size: large;
+    }
+
+    /*  Boba Section  */
+
+    #about-boba {
+        width: 100%;
+    }
+
+    .heading {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        font-size: 5.5vmin;
+    }
+
+    .boba {
+        width: 100%;   
+    }
+
+    .boba .text-boba {
+        width: 40%;
+        max-width: 350px;
+        height: 300px;
+    }
+
+    .bubbles-tea {
+        width: 40%;
+        max-width: 350px;
+        height: 350px;
+    }
+
+    .bubbles-tea img {
+        width: 300px;
+        height: 320px;
+    }
+
+    .text-boba h2 {
+        padding-bottom: 0.5rem;
+        font-size: 3.3vmin;
+    }
+
+    .text-boba p {
+        padding-top: 1rem;
+        line-height: 1.2;
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+
+    /*  Menu Section  */
+
+    #order-section {
+        width: 100%;
+    }
+
+    #order-head {
+        font-size: 7vmin;
+    }
+
+    .container img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .large-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container {
+        width: 14%;
+    }
+
+    .container h3 {
+        font-size: 3.6vmin;
+    }
+
+    .container h2 {
+        font-size: 4vmin;
+    }
+
+    #menu-text h2 {
+        font-size: 7.5vmin;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #head-menu {
+        font-size: 9vmin;
+    }
+
+    .container-milk {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        font-size: 2.2vmin;
+    }
+
+    .img-milktea {
+        position: relative;
+        height: 130px;
+        width: 110px;
+        border: none;
+        background: no-repeat center;
+        border-radius: 7%;
+        padding-bottom: 0.5rem;
+        margin: 0;
+    }
+
+    .milk-tea, .fruit-tea, .slush-tea, .smoothies-tea {
+        width: 15%;
+    }
+
+    .menu-price {
+        font-size: 3.3vmin;
+    }
+
+    .toppings .boba-left {
+        width: 30%;
+        max-width: 240px;
+        height: 270px;
+    }
+
+    .toppings .boba-mid {
+        width: 30%;
+        max-width: 240px;
+        height: 300px;
+        font-size: 2.4vmin;
+        text-align: center;
+    }
+
+    .toppings .boba-right {
+        width: 30%;
+        max-width: 240px;
+        height: 270px;
+    }
+
+    .boba-left img {
+        width: 240px;
+        height: 260px;
+    }
+
+    .boba-right img {
+        width: 240px;
+        height: 260px;
+    }
+
+    .boba-mid h2 {
+        font-size: 3vmin;
+    }
 }
 
-/*  Welcome Section  */
-#welcome {
-    width: 100%;
-    margin-bottom: 2rem;
-}  
-.text-left h2 {
-    font-size: 3.3vmin;
-}
-.text-left p {
-    padding-top: 1rem;
-    padding-bottom: 1.7rem;
-    font-size: 14px;
-}
-.row .text-left {
-    width: 320px;
-    height: 320px;
-}
-.row .store-right {
-    width: 320px;
-    height: 320px;
-}
-.store-right img{
-    height: 300px;
-    width: 300px;
- }
- .button {
-    padding: 13px 15px;
-    font-size: 14px;
-    margin-left: 4rem;
-}
 
-/*  Offers Section  */
-#deals-section {
-    width: 100%;
-    margin: 0;
-}
-#deals-section .deals {
-   display: flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap;
-   margin: 0;
-   padding: 0;
-}
-.box {
-    height: 300px;
-    width: 40%;
-    max-width: 400px;
-}
-.box img {
-    height: 300px;
-    width: 100%;
-    max-width: 400px;
-}
-.box h2 {
-    font-size: large;
-}
-
-/*  Boba Section  */
-#about-boba {
-    width: 100%;
-}
-.heading {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    font-size: 5.5vmin;
-}
-.boba {
-    width: 100%;   
-}
-.boba .text-boba {
-    width: 40%;
-    max-width: 350px;
-    height: 300px;
-}
-.bubbles-tea {
-    width: 40%;
-    max-width: 350px;
-    height: 350px;
-}
-.bubbles-tea img {
-    width: 300px;
-    height: 320px;
-}
-.text-boba h2 {
-    padding-bottom: 0.5rem;
-    font-size: 3.3vmin;
-}
-.text-boba p {
-    padding-top: 1rem;
-    line-height: 1.2;
-    letter-spacing: 0;
-    font-size: 14px;
-}
-
-/*  Menu Section  */
-
-#order-section {
-    width: 100%;
-}
-#order-head {
-    font-size: 7vmin;
-}
-.container img {
-    width: 100px;
-    height: 100px;
-}
-.large-container {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 3rem;
-}
-.container {
-    width: 14%;
-    height: 150px;
-}
-.container h3 {
-    font-size: 3.6vmin;
-}
-.container h2 {
-    font-size: 4vmin;
-    padding-bottom: 0.5rem;
-}
-
-#menu-text h2 {
-    font-size: 7.5vmin;
-    display: flex;
-    flex-wrap: wrap;
-}
-#head-menu {
-    font-size: 9vmin;
-}
-
-.container-milk {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    font-size: 2.2vmin;
-}
-
-.img-milktea {
-    position: relative;
-    height: 130px;
-    width: 110px;
-    border: none;
-    background: no-repeat center;
-    border-radius: 7%;
-    padding-bottom: 0.5rem;
-    margin: 0;
-}
-.milk-tea {
-    width: 15%;
-    height: 200px;
-}
-.menu-price {
-font-size: 3.3vmin;
-}
-
-.fruit-tea {
-    width: 15%;
-    height: 200px;
-}
-.slush-tea {
-    width: 15%;
-    height: 200px;
-}
-.smoothies-tea {
-    width: 15%;
-    height: 200px;
-}
-.toppings .boba-left {
-    width: 30%;
-    max-width: 240px;
-    height: 250px;
-}
-.toppings .boba-mid {
-    width: 30%;
-    max-width: 240px;
-    height: 250px;
-    font-size: 2.4vmin;
-    text-align: center;
-}   
-.toppings .boba-right {
-    width: 30%;
-    max-width: 240px;
-    height: 250px;
-}
-
-.boba-left img {
-    width: 230px;
-    height: 240px;
-}
-.boba-right img {
-    width: 230px;
-    height: 240px;
-}
-.boba-mid h2 {
-    font-size: 3vmin;
-}
-}
 /* Media Queries for mobile screen sizes from 768px wide and down */
 
 @media screen and (max-width: 768px) {
@@ -1492,9 +1515,7 @@ font-size: 3.3vmin;
     #head-menu {
         font-size: 8vmin;
     }
-    .milk-series {
-        font-size: 3.6vmin;
-    }
+
     .container-milk {
         width: 100%;
         display: flex;
@@ -1503,6 +1524,7 @@ font-size: 3.3vmin;
         padding-top: 1.2rem;
         font-size: 2vmin;
     }
+
     .img-milktea {
         position: relative;
         height: 100px;
@@ -1513,83 +1535,63 @@ font-size: 3.3vmin;
         padding-bottom: 0.5rem;
         margin: 0;
     }
-    .milk-tea {
+
+    .milk-tea, .fruit-tea, .slush-tea, .smoothies-tea {
         width: 15%;
-        height: 200px;
     }
+
     .menu-price {
     font-size: 3.3vmin;
     }
-    #fruit-tea-section {
-        padding-top: 0;
-    }
-    .fruit-tea {
-        width: 15%;
-        height: 200px;
-    }
-    .fruit-series {
+    
+    .milk-series, .fruit-series, .slush-series, .smoothies-series, .head-topping {
         font-size: 3.6vmin;
     }
-    #slush-tea-section {
-        padding-top: 0;
-    }
-    .slush-tea {
-        width: 15%;
-        height: 200px;
-    }
-    .slush-series {
-        font-size: 3.6vmin;
-    }
-    #smoothies-tea-section {
-        padding-top: 0;
-    }
-    .smoothies-tea {
-        width: 15%;
-        height: 200px;
-    }
-    .smoothies-series {
-        font-size: 3.6vmin;
-    }
-    #toppings-section {
-        padding-top: 0;
-    }
-    .head-toppings {
-        font-size: 3.6vmin;
-        padding-top: 0;
-    }
+    
     .toppings .boba-left {
         width: 30%;
         max-width: 180px;
-        height: 200px;
+        height: 250px;
     }
     .toppings .boba-mid {
         width: 30%;
         max-width: 180px;
-        height: 200px;
+        height: 250px;
         font-size: 2.4vmin;
         text-align: center;
     }   
     .toppings .boba-right {
         width: 30%;
         max-width: 180px;
-        height: 200px;
+        height: 250px;
     }
     
     .boba-left img {
         width: 180px;
-        height: 200px;
+        height: 250px;
     }
+
     .boba-right img {
         width: 180px;
-        height: 200px;
+        height: 250px;
     }
+
     .boba-mid h2 {
         font-size: 2.7vmin;
     }
+
+    .boba-mid p { 
+        font-size: 2.8vmin;
+    }
+
     .signup-btn a {
         width: 150px;
         height: 50;
         font-size: 4.3vmin;
+    }
+
+    .offer-end h2 {
+        font-size: 5vmin;
     }
 
 /*footer section*/
@@ -1882,6 +1884,10 @@ font-size: 3.3vmin;
         text-align: center;
     }
 
+    #order-head h2 {
+        font-size: 7.8vmin;
+    }
+
     #order-section #order-head {
         padding-top: 1rem;
     }
@@ -1891,7 +1897,6 @@ font-size: 3.3vmin;
     }
 
     .large-container {
-        max-width: 500px;
         width: 100%; 
         margin: 0;
         display: flex;
