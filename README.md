@@ -169,10 +169,20 @@ The website was deployed on Github pages. The steps are as follows:
 
 **W3C Validator was used to validate the HTML 5 code written on all pages for my website**
 
-![W3C HTML Validator results](assets/img/HTMLchecker.png)
+![W3C Overall HTML Validator results](assets/img/HTMLchecker.png)
+
+![W3C HTML Checker results for Homepage](assets/img/index.png)
+
+![W3C HTML Checker results for Menu page](assets/img/Menu-checker.png)
+
+![W3C HTML Checker results for Gallery page](assets/img/Gallery-checker.png)
+
+![W3C HTML Checker results for Sign Up page](assets/img/Form-checker.png)
+
+![W3C HTML Checker results for Thank You page](assets/img/Thankyou-checker.png)
 
 ### PSI Testing
-Google PageSpeed Insights (PSI), a free tool was utilized for gauging the performance and accessibility measures of the website. Initially, the performance and speed was not so highly rated generally because of the large images and lack of aria labels. I tried to compress and convert many of the images from jpeg format to png, and i added aria labels for better accessibility which significantly improved the performance of my website. Below are the final PSI results:
+Google PageSpeed Insights (PSI), a free tool was utilized for gauging the performance and accessibility measures of the website. Initially, the performance and speed was not so highly rated generally because of the large images and lack of aria labels. I tried to compress and convert many of the images from jpeg format to png, and I added missing aria labels to elements for better accessibility which significantly improved the performance of my website. Below are the final PSI results:
 
 ![PSI results for Desktop](assets/img/PSI-1.png)
 
@@ -199,7 +209,7 @@ Safari
 
 Microsoft Edge
 
-Additional testing was done on a variety of devices and screen sizes.
+**Additional testing was done on a variety of devices and screen sizes.**
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
@@ -233,12 +243,42 @@ Additional testing was done on a variety of devices and screen sizes.
 |   |   |   |   |
 
 
-##Bugs
+## Known Bugs
 
+When scrolling on mobile devices, the menu page was displaying white space on the right side and I took tutor support to resolve that. It has now been removed.
 
+There was an issue with the responsiveness of the Menu page as well. The images would not wrap when adjusting them in media queries for screen max-size 594px. With tutor's assistance, that was fixed as well. 
 
-##Credits
+At the initial stage of the project there were issues with Codeanywhere not loading up for hours and that was so frustrating because it was time wasting. I then decided to work on VS Code but at a later stage when I got stuck with few sections in my project, I needed tutor support, and then I was advised to shift to Gitpod cloud IDE. Hence, I copied my progress to Gitpod and worked from there to have a workspace that I knew would load for me every time, and also make use of the tutoring facility. 
 
+However, just few days before I complete my project, there was an unusual change with Gitpod - I could not see the changes I made in the browser in realtime, even though I was clearing the cache. This was again so frustrating because I was very close to the finish. I had to use Gitpod from another laptop to be able to complete my work and I had student care support as well.
+
+I came across semantic errors after validating my HTML and CSS codes, and all of them were fixed.
+
+## Credits
+
+YouTube video tutorials:
+ - About creating a responsive navbar using flexbox: 
+ <https://www.youtube.com/watch?v=PwWHL3RyQgk&t=533s> 
+ - Creating a hamburger menu without javascript:
+ <https://www.youtube.com/watch?v=XM7sEpl0f7c>
+
+- The admin team of MYBOBOTEA.com for the logo and some images.
+- Pinterest, for all the other images.
+- My tutor Joanne Lee for her direction and assistance with Media Queries.
+- Tutor Sean for the assistance with fixing the white space.
+- Tutor Holly for her assistance with the resizing of images on Menu page and tips on how to avoid stretching.
+- Love Running project, as a template for the comment box, and for the the favicon html.
+- My mentor, for the Readme template.
+- Brian McConway, for sharing tips and tricks throughout the project.
+
+## Acknowledgements
+
+- Friends, family and colleagues, for testing my project at every stage, and also for their feedback.
+- My Mentor for constructive feedback and direction.
+- My tutors from Code Institute, for their valuable assistance throughout the project.
+- Student Care for their valuable support.
+- The Code Institute, for all the facilities and support.
 
 
 
