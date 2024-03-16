@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bubble tea store in Dublin">
+    <meta name="keywords" content="bubble tea, boba tea, tapioca pearl tea, pearl milk tea, popping boba, fruit syrup, tea">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="html" href="menu.html">
+    <link rel="html" href="gallery.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Bobo Tea</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" type="icon/png" size="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" size="32x32" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" size="16x16" href="assets/favicon/favicon-16x16.ico">
+</head>
+
+<body>
+    <header>
+        <div id="navigation-section">
+        <a href="index.html">
+            <image src="assets/img/bobo-logo.jpg" alt="logo" id="logo">
+        </a>
+            </image>
+          
+            <nav class="navbar">
+                <ul id="nav-items">
+                    <li><a href="form.html">SIGN UP</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="index.html" class="active">HOME</a></li>
+                </ul>
+            </nav> 
+        <div class="clear"></div>
+    </div> 
+    </header>
+
+    <!-- //hero image and text overlay section// --> 
+
+    <section id="hero-section">
+
+    <div id="hero-image"></div>
+    <div id="hero-text">
+        <h2>More <span style="font-size: larger;">Bubbles...</span>less <span style="font-size: larger;">troubles!</span>
+        </h2>
+        </div>
+    </section>
+    
+    <!-- //Store image and intro segment// --> 
+
+    <section id="welcome">
+        <h2>Welcome to our Store!</h2>
+        <div id="store-right">
+            </div>
+        <div id="text-left">
+            <p class="bold">The trendiest drink in town.</p>
+            <hr>
+            <p class="justify">Capel Street is a haven for bubble tea fans, simply because that's where exactly you'll find Bobo tea shop! Here, we provide a cosy environment for all your bubbly needs, a perfect spot to pop in to relax and enjoy some refreshing boba in Dublin. You can also create your own customised flavour, choosing a base and your toppings to have your bubble tea just the way you want it.
+            </p>
+            <a class="button" href="menu.html" aria-label="Go over the menu">VIEW THE MENU</a>
+        </div>      
+    </section>
+
+<!-- //Special deals items// --> 
+
+    <section id="deals">
+        <h2 id="heading-deals">Special offers for this October</h2>
+            <h3 class="members-deals">***Members ONLY***</h3>
+            <div class="box">
+                <a href="menu.html">
+                    <h2>KICKSTART</h2>
+                    <h3>Mondays</h3>
+                    <h4>FREE UPSIZE on<br> COFFEE drinks</h4>
+                    <img src="assets/img/coffee.JPG" alt="Coffee base boba tea" class="deal-image">
+                </a>
+                </div>
+                <div class="box">
+                    <a href="menu.html">
+                        <h2>WINTERMELON</h2>
+                        <h3>Wednesdays</h3>
+                        <h4>25% OFF on LARGE</h4>
+                        <h4>Wintermelon Series</h4>
+                        <img src="assets/img/wintermelon.JPG" alt="Winter melon boba tea" class="deal-image">
+                    </a>
+                </div>
+    
+                    <div class="box">
+                        <a href="menu.html">
+                            <h2>FRUITEA</h2>
+                            <h3>Fridays</h3>
+                            <h4>BUY 1 TAKE 1</h4>
+                            <h4>on FRUITEA drinks</h4>
+                            <img src="assets/img/fruitea.JPG" alt="Fruit base boba tea" class="deal-image">
+                        </a>
+                    </div>
+                    
+                    <div class="box">
+                        <a href="form.html">
+                            <h2>SIGN UP</h2>
+                            <h3>GET 15% OFF</h3>
+                            <h4>on your FIRST</h4>
+                            <h4>purchase!</h4>
+                            <img src="assets/img/subscribe.jpg" alt="15% OFF on Signing up" class="deal-image">
+                        </a>
+                    </div>
+    </section>
+
+    <section id="about-boba">
+        <h1 id="overview-heading">Have you ever tried bubble tea?</h1>
+            <div id="boba-brief">
+                <image src="assets/img/boba-everywhere.jpg" alt="Popularity of bubble tea around the world." class="about-img"></image>
+             </div>
+             <div id="brief-text">
+                <h2>Bubble Tea: A brief overview</h2>
+                <hr class="brief-line">
+            <p>Bubble tea, commonly known as boba tea, is a Taiwanese drink that has taken the world by storm. It originated in the 1980s and has since become a global phenomenon, with stores opening in every major city worldwide. The drink mainly combines tea, milk, and tapioca pearls, creating a unique and flavorful experience. 
+            In recent years, bubble tea culture has continued to evolve, with new trends and flavours emerging. One of the most notable trends is using natural ingredients in bubble tea, such as fresh fruits and herbs. This has led to a new focus on health and wellness in the bubble tea industry, with many shops, including Bobo Tea offering healthier options free from artificial flavours and preservatives.</p>
+            </div>
+    </section>
+</body>
+
+ <!-- //---the footer!---// --> 
+
+ <footer>
+    <section  id="footer-bobo-logo">
+        <div class="footer-logo">
+            <a href="index.html">
+                <image src="assets/img/bobo-logo.jpg" alt="logo" id="bobo-logo">
+            </a></image>
+            </div>
+        </section>
+        <section id="footer-info">
+            <div id="hours">
+                <ul>
+                    <h3>OUR HOURS</h3>
+                    <li>Monday: 11:00 AM - 8:00 PM</li>
+                    <li>Tuesday: 11:00 AM - 8:00 PM</li>
+                    <li>Wednesday: 11:00 AM - 8:00 PM</li>
+                    <li>Thursday: 11:00 AM - 8:00 PM</li>
+                    <li>Friday: 11:00 AM - 8:00 PM</li>
+                    <li>Saturday: 11:00 AM - 8:00 PM</li>
+                    <li>Sunday: 11:00 AM - 8:00 PM</li>
+                </ul>
+            </div>
+            <div id="contact">
+                <ul>
+                    <h3>CONTACT US</h3>
+                    <li><i class="fa-solid fa-phone-flip"></i> 089 478 9893</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@bobotea.ie</li>
+                    <li><i class="fa-solid fa-location-dot"></i>
+                        <a href="https://maps.google.com/maps?hl=en&gl=ie&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x48670ff56908e22b:0xe7ccdb5cd019d5d" target="_blank"></a> 1, 47 Capel St, <br>North City, Dublin 1 <br>D01 Y5C3 <br>(Located in Jervis Shopping Centre)</i>
+                </ul>
+            </div>
+            <div id="follow-us">
+                <ul>
+                    <h3>FOLLOW US</h3>
+                    <li><a href="https://www.facebook.com/MyBoboTea" target="_blank">
+                            <i class="fa-brands fa-facebook"></i> Facebook</a>
+                        </li>
+                        <li><a href="https://twitter.com/MyBoboTea" target="_blank">
+                            <i class="fa-brands fa-twitter"></i> Twitter</a>
+                            </li>
+                            <li><a href="https://www.instagram.com/mybobotea/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i> Instagram</a>
+                            </li>
+                                <li><a href="https://www.yelp.com/biz/bobo-tea-houston-2" target="_blank">
+                                <i class="fa-brands fa-yelp"></i> Yelp</a>
+                            </li>
+                </ul>
+    </div>
+    </section>
+    
+    <section>
+        <div class="footer-end">
+            <hr>
+            <p id="copyright">
+                <i class="fa-regular fa-copyright"></i>  COPYRIGHT 2024. PREETY RAMDIN.</p>
+        </div>
+    </section>
+</footer>
+</html>       

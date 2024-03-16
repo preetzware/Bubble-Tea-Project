@@ -72,33 +72,43 @@ The first and foremost wireframes for this website were made on paper and therea
 - ### Navigation Bar
 The navigation bar for this website is featured on each page, with the business logo positioned on the left side and all the other navigational links situated to the right side. This style is set for devices with max screen size 950px and 1200px and this is how it looks:
 
-
+![Navigation bar for website](assets/img/Navbar.png)
 
 For small screen sizes such as screen size max 768px and max 594px and down, the navigation bar collapses into a hamburger menu on the right corner while the logo hangs still on the left side. Upon clicking on the hamburger menu, it will drop down to feature the rest pages which are highlighted into a box shadow upon hovering.
 
-[img]
+![Hamburger menu bar for website](assets/img/Hamburger.jpg)
 
 - ### Footer
 The footer sits at the bottom of each page, adding spotlight to the operating days and hours of business, the contact information of the business such as email, address and phone number, and the social media links like Facebook, Instagram, Twitter and Yelp to connect to the business.
- [img]
+ 
+ ![Footer for website](assets/img/Footer.png)
 
 - ## Home page
 The home page features the hero image which showcases a variety of captivating and mouthwatering in-house prepared bubble teas, with a text overlayed on it that triggers the desire for the drinks. Below it, an image and some information about the store are included, together with a ‘View Menu’ button in case the visitor can’t wait to see the menu in the next page. Another section below, features the weekly promotional items for registered members only, including a sign up offer link that will direct those interested to the Sign-Up page. And last but not least, Boba section gives a visitor who’s new to bubble tea an idea of what kind of drink it is, where does it originates from and how good it is.
 
+![Home page](assets/img/Homepage.png)
+
 - ## Menu page
 The menu page is actually the icing on the cherry! First of all. Provides a step to step guide about how to order bubble tea so that time is saved and service will be faster at the counter. The order section provides a wide range of vibrant bubble teas highlighting so many flavours and their prices. 
+
+![Menu page for website](assets/img/Menu-page.png)
 
 - ## Gallery page
 The gallery page showcases how bubble tea is embraced by all cultures, all generations and how it has become the hip beverage of all parties and get-togethers nowadays. Visitors can relate to it and can be inspired to order some for their parties and get-togethers. These page has been designed in a responsive manner with three columns of imagery in laptops and two on smaller size tablets and one column for mobile devices.
 
+![Gallery page](assets/img/Gallery-page.png)
 
 - ## Sign Up page
 
 The sign up page contains a background image with a partly overlaid form featuring first name, last name, email adress and date of birth fields that users will fill in upon registration in order to avail of the weekly deals, promotions and offers.
 
+![Sign Up page](assets/img/Signup-page.png)
+
 - ## Thank You page
 
 Eventually, when clicking on the sign up button in the registration form, the user will land on the thank you page where they will also find their 15% discount code for their first purchase in store.
+
+![Thank you page](assets/img/Thankyou-page.png)
 
 ## Future Implementations
 
@@ -132,35 +142,43 @@ HTML 5, CSS
 Github was used for version control, site storage and for deploying my project to Github pages. Gitpod is the IDE I used to write, edit, commit and push my code to Github.
 
 ## Deployment
-My website was deployed early on Github pages.
+The website was deployed on Github pages. The steps are as follows:
+
+1. Go to Github repository and open the repository
+2. Click on the settings option in the repository 
+3. Select the branch from where you want to host your project 
+4. Click on the save option and the link will be available in some time
+5. Open the project in any browser 
 
 ### Local Deployment 
 
 **Steps to clone:**
-Log into your account on GitHub
-Go to the repository of this project https://github.com/preetzware/Bubble-Tea-Project.git
-Click on the code button, and copy your preferred clone link.
-Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
 
-**Steps to fork the repository:**
-
-Log in (or sign up) to Github.
-Go to the repository for this project, https://github.com/kb5991/17agency
-Click the Fork button in the top right corner.
+1. Navigate to GitHub repository.
+2. Go to the repository of this project https://github.com/preetzware/Bubble-Tea-Project.git
+3. Click on the code button, and copy your preferred clone link.
+4. Open the repo in Gitpod by prefixing the URL with: gitpod.io/#.
+5. Confirm the workspace creation.
 
 ## Testing
 
 ### Manual Testing
-W3C Validator was used to validate the HTML 5 code written on all pages for my website
+**Jigsaw CSS Validator was used to validate the CSS codes written for my website**
 
+![CSS Validator results](assets/img/ValidatedCSS.png)
 
+**W3C Validator was used to validate the HTML 5 code written on all pages for my website**
 
-### Lighthouse Testing
-Google Chrome's Lighthouse Developer Tool was utilized for gauging the performance and accessibility measures of the website. Initially, the performance and speed was slowed down greatly by large images even though they had been compressed, sometimes twice, using TinyPNG.com. I had then converted these images from jpeg format to webp, which significantly improved the performance of my website. Below are the final Lighthouse results.
-(img)
+![W3C HTML Validator results](assets/img/HTMLchecker.png)
 
-###Device Testing###
+### PSI Testing
+Google PageSpeed Insights (PSI), a free tool was utilized for gauging the performance and accessibility measures of the website. Initially, the performance and speed was not so highly rated generally because of the large images and lack of aria labels. I tried to compress and convert many of the images from jpeg format to png, and i added aria labels for better accessibility which significantly improved the performance of my website. Below are the final PSI results:
+
+![PSI results for Desktop](assets/img/PSI-1.png)
+
+![PSI results for Mobile Device](assets/img/PSI-2.png)
+
+### Device Testing ###
 The website was tested on the following devices:
 
 iPhone 12 Pro
@@ -187,31 +205,36 @@ Additional testing was done on a variety of devices and screen sizes.
 | --- | --- | --- | --- | --- |
 | `Navigation bar` |
 |  |  |  |  |  |
-| Seventeen Agency Logo | When clicked the user will be redirected to the Home page. | Clicked logo | Redirected to the Home page. | Pass |
+| Bobo tea Logo | When clicked the user will be redirected to the Home page. | Clicked logo | Redirected to the Home page. | Pass |
 | Home Link | When clicked the user will be redirected to the Home page.| Clicked link | Redirected to the Home page. | Pass |
-| About Link | When clicked the user will be redirected to the About page. | Clicked link | Redirected to the About page. | Pass |
-| Portfolio Link | When clicked the user will be redirected to the Portfolio page. | Clicked link | Redirected to the Portfolio page. | Pass |
-| Contact Link | When clicked the user will be redirected to the Contact page. | Clicked link | Redirected to the Contact page. | Pass |
+| Menu Link | When clicked the user will be redirected to the Menu page. | Clicked link | Redirected to the About page. | Pass |
+| Gallery Link | When clicked the user will be redirected to the Gallery page. | Clicked link | Redirected to the Portfolio page. | Pass |
+| Sign Up Link | When clicked the user will be redirected to the Sign Up page. | Clicked link | Redirected to the Contact page. | Pass |
 | --- | --- | --- | --- | --- |
 | `Footer` |
 |  |  |  |  |  |
 | Social Media Icons | When clicked the user will be redirected to the appropriate social media pages in a new window. | Clicked icon | Redirected to the social media page in a new window. | Pass |
+| Address Link | When clicked the user will be directed to the external link in Google maps.| Clicked link | directed to the Google maps exact location. | Pass |
 | --- | --- | --- | --- | --- |
 | `Home Page` |
 |   |   |   |   |
-| Menu button and texts links | When clicked the user will be redirected to the About page. | Clicked landing image and text | Redirected to the Menu page. | Pass |
+| Menu button | When clicked the user will be redirected to the Menu page. | Clicked button | Redirected to the Menu page. | Pass |
+| Offers Link | When clicked the user will be redirected to the Menu page.| Clicked link | Redirected to the Menu page. | Pass |
+| 15% Discount Link | When clicked the user will be redirected to the Sign Up page. | Clicked link | Redirected to the Sign Up page. | Pass |
 | --- | --- | --- | --- | --- |
 | `Menu Page` |
 |   |   |   |   |
-| Imagery responsiveness | When window is resized the portfolio is responsive and site layout looks as expected. | Resized window | Portfolio is responsive and site layout looks as expected.| Pass |
+| 15% Discount Link | When clicked the user will be redirected to the Sign Up page. | Clicked link | Redirected to the Sign Up page. | Pass |
 | --- | --- | --- | --- | --- |
 | `Sign Up Page` |
 |   |   |   |   |
-| Sign Up form | Required fields and correct email address format needed in order to submit.| Clicked submit while leaving form unfillled | Form will not submit without a name, a correctly formatted email address and a message. | Pass |
-| Submit button | Upon correct completion and submission of form, user is redirected to the Thank You page. | Form completed, sign up button clicked | User redirected to Thank You page. | Pass |
+| Sign Up form | Required fields and correct email address format needed in order to submit.| Clicked submit while leaving form unfillled | Form will not submit without a name, a last name and a correctly formatted email address. | Pass |
+| Sign Up button | Upon filling the form correctly and clicking on the Sign Up button, the user is redirected to the Thank You page. | Form completed, sign up button clicked | User redirected to Thank You page. | Pass |
+|   |   |   |   |
 
 
 ##Bugs
+
 
 
 ##Credits

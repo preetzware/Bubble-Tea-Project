@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Inter:wght@400;500&family=Onest&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Charm:wght@400;700&family=Courgette&family=Pacifico&family=Playball&family=Rozha+One&family=Sen:wght@400..800&display=swap');
+
+/* Asterix wildcard selector to override default styles added by the browser */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, Onest, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+/* navbar and logo in header section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    height: 100px;
+    width: 10%;
+    cursor: pointer;
+    border-color:#FAD02C;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #FAD02C;
+}
+.navbar #nav-links {
+    text-decoration: none;
+}
+
+#nav-links {
+    font-size: 110%;
+    letter-spacing: 4px;
+    padding-top: 2.4rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    font-weight: bold;
+} 
+
+#nav-links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: black;
+}
+
+#nav-links a:hover {
+    color:#0000FF;
+    border-block:0.5rem solid white;
+    writing-mode: horizontal-tb;
+}
+
+.active {
+    border-block:0.5rem solid white;
+}

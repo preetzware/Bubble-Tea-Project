@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bubble tea store in Cebu City, Philippines">
+    <meta name="keywords" content="bubble tea, boba tea, tapioca pearl tea, pearl milk tea, popping boba, fruit syrup, Cebu City, Philippines">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Bubble Tea Station</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" type="icon/png" size="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" size="32x32" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" size="16x16" href="assets/favicon/favicon-16x16.ico">
+</head>
+
+<body>
+    <header>
+        <div>
+        <a href="index.html">
+            <image src="assets/img/bobo-logo.jpg" alt="logo" id="logo">
+        </a>
+            </image>
+          
+            <nav class="navbar">
+                <ul id="nav-items">
+                    <li><a href="form.html">SIGN UP</a></li>
+                    <li><a href="gallery.html" class="active">GALLERY</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                </ul>
+            </nav> 
+        <div class="clear"></div>
+    </div> 
+    </header>
+
+    <!-- //hero image and overlay section// --> 
+
+    <h2 id="partea-text"><span style="font-size: 70px;">Life  is  a  Bubble<span style="font-size: 80px;">  parTEA!</span>
+    </h2> 
+    <img src="assets/img/boba-animation.gif" class="boba-gif">
+    <section id="gallery-section">
+        
+        <img src="assets/img/bubble-one.JPG" alt="group of friends enjoying bubble tea">
+        <img src="assets/img/bubble-two.jpg"  alt="young girl enjoying bubble tea">
+        <img src="assets/img/bubble-three.jpg" alt="bubble party amongst friends">
+        <img src="assets/img/bubble-four.jpg"  alt="three friends enjoying bubble tea">
+        <img src="assets/img/bubble-five.jpg" alt="bubble tea party at the beach">
+        <img src="assets/img/bubble-six.jpg" alt="two ladies drinking bubble tea">
+        <img src="assets/img/bubble-seven.jpg" alt="two ladies enjoying boba tea at the beach">
+        <img src="assets/img/bubble-eight.jpg" alt="bubble partea">
+        <img src="assets/img/bubble-nine.jpg" alt="hands presenting two cups of bubble teas">
+        <img src="assets/img/bubble-ten.jpg" alt="daddy and daughter enjoying bubble tea">
+    
+    </section>
+
+    <!-- //---the footer!---// --> 
+
+ <footer>
+    <section  id="footer-bobo-logo">
+        <div class="footer-logo">
+            <a href="index.html">
+                <image src="assets/img/bobo-logo.jpg" alt="logo" id="bobo-logo">
+            </a></image>
+            </div>
+        </section>
+        <section id="footer-info">
+            <div id="hours">
+                <ul>
+                    <h3>OUR HOURS</h3>
+                    <li>Monday: 11:00 AM - 8:00 PM</li>
+                    <li>Tuesday: 11:00 AM - 8:00 PM</li>
+                    <li>Wednesday: 11:00 AM - 8:00 PM</li>
+                    <li>Thursday: 11:00 AM - 8:00 PM</li>
+                    <li>Friday: 11:00 AM - 8:00 PM</li>
+                    <li>Saturday: 11:00 AM - 8:00 PM</li>
+                    <li>Sunday: 11:00 AM - 8:00 PM</li>
+                </ul>
+            </div>
+            <div id="contact">
+                <ul>
+                    <H3>CONTACT US</H3>
+                    <li><i class="fa-solid fa-phone-flip"></i> 089 478 9893</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@bobotea.ie</li>
+                    <li><i class="fa-solid fa-location-dot"></i>
+                        <a href="https://maps.google.com/maps?hl=en&gl=ie&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x48670ff56908e22b:0xe7ccdb5cd019d5d" target="_blank"></a> 1, 47 Capel St, <br>North City, Dublin 1 <br>D01 Y5C3 <br>(Located in Jervis Shopping Centre)</i>
+                </ul>
+            </div>
+            <div id="follow-us">
+                <ul>
+                    <h3>FOLLOW US</h3>
+                    <li><a href="https://www.facebook.com/MyBoboTea" target="_blank">
+                            <i class="fa-brands fa-facebook"></i> Facebook</a>
+                        </li>
+                        <li><a href="https://twitter.com/MyBoboTea" target="_blank">
+                            <i class="fa-brands fa-twitter"></i> Twitter</a>
+                            </li>
+                            <li><a href="https://www.instagram.com/mybobotea/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i> Instagram</a>
+                            </li>
+                                <li><a href="https://www.yelp.com/biz/bobo-tea-houston-2" target="_blank">
+                                <i class="fa-brands fa-yelp"></i> Yelp</a>
+                            </li>
+                </ul>
+    </div>
+    </section>
+    
+    <section>
+        <div class="footer-end">
+            <hr>
+            <p id="copyright">
+                <i class="fa-regular fa-copyright"></i>  COPYRIGHT 2024. PREETY RAMDIN.</p>
+        </div>
+    </section>
+</footer>
