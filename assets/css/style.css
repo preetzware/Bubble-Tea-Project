@@ -985,7 +985,7 @@ footer {
     border:17px solid #fff;
 }
 
-  .background-image img {
+.background-image img {
     position: absolute;
     top: 0;
     left: 0;
@@ -994,13 +994,13 @@ footer {
     object-fit: cover; 
 }
 
-  .overlay {
+.overlay {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #00000080; 
-    padding: 20px;
+    background-color: #000000e0; 
+    padding: 52px;
     color: #fff; 
 }
 
@@ -1011,7 +1011,7 @@ footer {
 }
 
 .content h2 {
-    font-size: 7vmin;
+    font-size: 6vmin;
     margin-bottom: 1rem;
 }
 
@@ -1118,6 +1118,25 @@ footer {
 
     .bubble-partea h2 {
         font-size: 9.5vmin;
+    }
+
+    /* Thank you page */
+   
+    .content h2 {
+        font-size: 5.8vmin;
+        margin-bottom: 1rem;
+    }
+    
+    .content p {
+        font-size: 3.5vmin;
+    }
+    
+    #discount-code {
+        font-size: 5vmin;   
+    }
+
+    .overlay {
+        padding: 2rem;
     }
 }
     /* For medium screen sizes from 950px wide and down */
@@ -1346,6 +1365,25 @@ footer {
 
     .boba-mid h2 {
         font-size: 3vmin;
+    }
+
+    /* Thank you page */
+   
+    .content h2 {
+        font-size: 5.8vmin;
+        margin-bottom: 1rem;
+    }
+    
+    .content p {
+        font-size: 3.5vmin;
+    }
+    
+    #discount-code {
+        font-size: 5vmin;   
+    }
+
+    .overlay {
+        padding: 2rem;
     }
 }
 
@@ -1740,7 +1778,7 @@ footer {
     }
 
     .overlay {
-        padding: 10px;
+        padding: 2rem;
     }
 }
 
@@ -2097,6 +2135,18 @@ footer {
     /* Thank you page */
 
     .overlay {
-        padding: 20px;
+        padding: 1rem;
+    }
+
+    .content h2 {
+        font-size: 4.6vmin;
+    }
+
+    .content p {
+        font-size: 3.5vmin;
+    }
+
+    #discount-code {
+        font-size: 4vmin;
     }
 }
