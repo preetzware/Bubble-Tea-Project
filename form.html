@@ -57,16 +57,16 @@
                         on our exclusive deals<br> EVERY MONTH!</h3>
                         <h4>Plus<br> <span class="more">15% OFF*</span><br>
                             on your Birthday!</h4>
-                            <form id="form-fill">
+                            <form id="form-fill" action="thankyou.html">
                                 <label for="first-name" aria-label="First name">First name:</label>
-                                <input type="text" placeholder="Enter First Name" id="first-name" name="first-name" required><br>
+                                <input type="text" placeholder="Enter First Name" id="first-name" name="first-name" required pattern="[A-Za-z]+" title="First name should only contain letters."><br>
                                 <label for="last-name" aria-label="Last name">Last name:</label>
-                                <input type="text" placeholder="Enter Last Name" id="last-name" name="last-name" required><br>
+                                <input type="text" placeholder="Enter Last Name" id="last-name" name="last-name" required pattern="[A-Za-z]+" title="Last name should only contain letters."><br>
                                 <label for="birthday" aria-label="Birthday">Birthday:</label>
                                 <input type="date" id="birthday" name="birthday" required><br>
                                 <label for="email" aria-label="Email">Email:</label>
-                                <input type="text" placeholder="Enter Email" id="email" name="email" required><br><br>
-                                <a class="signup-button" href="thankyou.html" aria-label="Go over to thank you page">Sign Up</a>
+                                <input type="email" placeholder="Enter Email" id="email" name="email" required><br><br>
+                                <button type="submit" class="signup-button" aria-label="Go over to thank you page">Sign Up</button>
                             </form>
             </div>
         </div>
