@@ -1387,6 +1387,11 @@ footer {
     }
 }
 
+.menuHeader{
+    font-size: 38px;
+    text-align: center;
+}
+
 
 /* Media Queries for mobile screen sizes from 768px wide and down */
 
@@ -1432,6 +1437,8 @@ footer {
         box-shadow: #C55FFC 3px 3px 6px 0px inset,
         #ffffff80 -3px -3px 6px 1px inset;
     }
+
+     
        
     /*  Hero Section  */
 
@@ -2150,3 +2157,65 @@ footer {
         font-size: 4vmin;
     }
 }
+
+/* Large container to hold all the sections */
+.large-container {
+    display: flex;
+    /* flex-wrap: wrap; Allows the containers to wrap on smaller screens */
+    justify-content: center; /* Centers the containers horizontally */
+    padding: 20px;
+  }
+  
+  /* Individual container styling */
+  .container {
+    background-color: #f9f9f9; /* Light background color for visibility */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin: 10px;
+    flex: 1 1 calc(25% - 20px); /* Flexible basis for 4 columns layout */
+    max-width: calc(25% - 20px); /* Max width for 4 columns layout */
+    text-align: center; /* Center align text */
+    padding: 20px;
+    transition: transform 0.3s ease; /* Smooth transform effect */
+  }
+  
+  .container:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Image styling */
+  .container img {
+    max-width: 100%; /* Ensures image is responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Matches container rounding */
+    margin-bottom: 10px; /* Space between image and text */
+  }
+  
+  .container h2 {
+    font-size: 2em; /* Larger font size for step numbers */
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .container h3 {
+    font-size: 1.2em; /* Adjusted font size for titles */
+    color: #555;
+  }
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .large-container  .container {
+      flex: 1 1 calc(50% - 20px); /* Adjust to 2 columns layout */
+      max-width: calc(50% - 20px); /* Adjust to 2 columns layout */
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 480px) {
+  .large-container  .container {
+      flex: 1 1 100%; /* Adjust to single column layout */
+      max-width: 100%; /* Adjust to single column layout */
+    }
+  }
+  
