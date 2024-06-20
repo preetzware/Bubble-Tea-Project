@@ -296,7 +296,7 @@ hr {
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 50px 15px;
 }
 
@@ -448,7 +448,7 @@ footer {
 
 .column li {
     list-style: none;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
 }
 
 .column li a {
@@ -1103,11 +1103,11 @@ footer {
     }
 
     .container h2 {
-        font-size: 4.3vmin;
+        font-size: 3vmin;
     }
 
     .container h3 {
-       font-size: 3.5vmin;
+       font-size: 3vmin;
     }
 
     #head-menu {
@@ -1148,6 +1148,15 @@ footer {
     #hero-text {
         font-size: 5vmin;
         padding-top: 2rem;
+    }
+
+    #hero-section {
+        height: 80vh;
+    }
+    
+    #hero-image img {
+        height: 80vh;
+        object-fit: cover; 
     }
 
     /*  Welcome Section  */
@@ -1288,8 +1297,11 @@ footer {
         width: 16%;
     }
 
+    .container h2 {
+        font-size: 4vmin;
+
     .container h3 {
-        font-size: 3.6vmin;
+        font-size: 3vmin;
     }
 
     .container h2 {
@@ -1329,8 +1341,8 @@ footer {
         padding-bottom: 0;
     }
 
-    .menu-price {
-        font-size: 3.3vmin;
+    .heading-milk, .heading-fruit, .heading-slush, .heading-smoothies, .menu-price {
+        font-size: 20px;
     }
 
     .toppings .boba-left {
@@ -1385,13 +1397,17 @@ footer {
     .overlay {
         padding: 2rem;
     }
-}
 
-.menuHeader{
+   .menuHeader{
     font-size: 38px;
     text-align: center;
-}
+    }
 
+     /* Footer */
+     .column li {
+        font-size: 2.2vmin;
+     }
+}
 
 /* Media Queries for mobile screen sizes from 768px wide and down */
 
@@ -1402,6 +1418,7 @@ footer {
     .toggle-menu {
         display: block;
     }
+
     .header {
         padding: 10px 20px;
         background-color: #06141B;
@@ -1424,11 +1441,13 @@ footer {
     .menu li {
         width: 100%;
     }
+
     .menu li a {
         padding: 30px;
         transition: all 0.3s ease 0s;
         cursor: pointer;
     }
+
     .menu li a:hover {
         padding: 30px;
         font-size: 24px;
@@ -1437,8 +1456,6 @@ footer {
         box-shadow: #C55FFC 3px 3px 6px 0px inset,
         #ffffff80 -3px -3px 6px 1px inset;
     }
-
-     
        
     /*  Hero Section  */
 
@@ -1447,7 +1464,8 @@ footer {
         height: auto;
     }
     #hero-text {
-        font-size: 4.3vmin;
+        font-size: 4.1vmin;
+        text-align: center;
         padding-top: 2rem;
     }
     
@@ -1463,7 +1481,7 @@ footer {
     }
 
     .text-left h2 {
-        font-size: 3vmin;
+        font-size: 2.8vmin;
     }
 
     .text-left p {
@@ -1571,6 +1589,12 @@ footer {
         text-align: center;
     }
 
+    /* Welcome section */
+
+    .text-left p {
+        font-size: 14px;
+    }
+
      /* Order Section */
 
     #order-section {
@@ -1581,13 +1605,9 @@ footer {
         padding-top: 2rem;
     }
 
-    .large-container {
-        width: 100%;
-       
-    }
-
-    .container {
-        width: 15%;
+    .large-container  .container {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
     }
 
     .container img {
@@ -1715,7 +1735,7 @@ footer {
     }
 
     .column li {
-        font-size: 3.2vmin;
+        font-size: 2.5vmin;
     }
 
     /* Form Page */
@@ -1746,11 +1766,11 @@ footer {
         content: '';
         position: absolute;
         top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color:  #FF9636;
-        opacity: 0.5;
+        left: 5.3rem;
+            width: 70%;
+            height: 100%;
+            background-color: #f97f28;
+            opacity: 0.9;
     }
     
     .sign-up h2,
@@ -1865,7 +1885,7 @@ footer {
     }
 
     .text-left h2 {
-        font-size: 4.2vmin;
+        font-size: 3.7vmin;
         padding-top: 0;
     }
 
@@ -1920,15 +1940,15 @@ footer {
     }
     
     .box a h3 {
-        font-size: 5.5vmin;
+        font-size: 3.5vmin;
     }
     
     .box a h4 {
-        font-size: 4.8vmin;
+        font-size: 3vmin;
     }
     
     .box a h5 {
-        font-size: 3.8vmin;
+        font-size: 2.7vmin;
     }
 
     /* About Boba Section */
@@ -1978,13 +1998,13 @@ footer {
         text-align: justify;
         align-items: center;
         margin: 0;
-        font-size: 15px;
+        font-size: 13px;
         padding-bottom: 2rem;
     }
 
     .text-boba h2 {
         text-align: center;
-        font-size: 4vmin;
+        font-size: 3.5vmin;
     }
     
     .text-boba hr {
@@ -1993,12 +2013,31 @@ footer {
 
     /*  Menu Hero image text  */
 
- #menu-text {
+    #hero-section {
+        height: 80vh;
+    }
+    
+    #hero-image img {
+        height: 80vh;
+        object-fit: cover; 
+    }
+    
+    #hero-text {
+        height: auto;
+    }
+    
+    #hero-text h2 {
+        font-size: 6.2vmin;
+        text-align: center;
+        padding: 0 0 1rem 0;
+    }
+    
+    #menu-text {
         font-size: 4.7vmin;
         text-align: center;
         height: 110px;
     }
-    
+
     /* Order Section */
 
     #head-menu {
@@ -2133,10 +2172,10 @@ footer {
         width: 80px;
     }
 
-     /* Commenting out the hover effect for images */
-    #gallery img:hover {
-        /* cursor: pointer;
-        transform: scale(1.3); */
+    /* Form page */
+    .sign-up::before {
+        left:3.2rem;
+        width: 80%;
     }
 
     /* Thank you page */
@@ -2161,61 +2200,74 @@ footer {
 /* Large container to hold all the sections */
 .large-container {
     display: flex;
-    /* flex-wrap: wrap; Allows the containers to wrap on smaller screens */
-    justify-content: center; /* Centers the containers horizontally */
+    justify-content: center;
     padding: 20px;
   }
   
   /* Individual container styling */
   .container {
-    background-color: #f9f9f9; /* Light background color for visibility */
-    border: 1px solid #ddd; /* Light border */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
-    flex: 1 1 calc(25% - 20px); /* Flexible basis for 4 columns layout */
-    max-width: calc(25% - 20px); /* Max width for 4 columns layout */
-    text-align: center; /* Center align text */
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    text-align: center;
     padding: 20px;
-    transition: transform 0.3s ease; /* Smooth transform effect */
+    transition: transform 0.3s ease;
   }
   
   .container:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.05);
   }
   
   /* Image styling */
   .container img {
-    max-width: 100%; /* Ensures image is responsive */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 8px; /* Matches container rounding */
-    margin-bottom: 10px; /* Space between image and text */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
   }
   
   .container h2 {
-    font-size: 2em; /* Larger font size for step numbers */
+    font-size: 2em;
     margin-bottom: 10px;
     color: #333;
   }
   
   .container h3 {
-    font-size: 1.2em; /* Adjusted font size for titles */
+    font-size: 1.2em;
     color: #555;
   }
+}
 
-/* Media query for tablets */
-@media (max-width: 768px) {
-  .large-container  .container {
-      flex: 1 1 calc(50% - 20px); /* Adjust to 2 columns layout */
-      max-width: calc(50% - 20px); /* Adjust to 2 columns layout */
-    }
-  }
-  
   /* Media query for mobile devices */
-  @media (max-width: 480px) {
+
+@media screen and (max-width: 335px) {
+
   .large-container  .container {
-      flex: 1 1 100%; /* Adjust to single column layout */
-      max-width: 100%; /* Adjust to single column layout */
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+
+     /* Deals Section */
+
+    .box a h3 {
+        font-size: 3.5vmin;
+    }
+    
+    .box a h4 {
+        font-size: 3vmin;
+    }
+    
+    .box a h5 {
+        font-size: 2.7vmin;
+    }
+ 
+    /* Footer Section */
+    column li {
+        font-size: 2.5vmin;
     }
   }
   
