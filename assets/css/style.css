@@ -176,10 +176,6 @@ body {
     letter-spacing: 6px;
 }
 
-span {
-    font-size: larger;
-}
-
 /* welcome section and overview */
 
 #welcome {
@@ -500,8 +496,8 @@ footer {
 #head-menu {
     text-align: center;
     font-family: "Charm", cursive;
-    font-weight: 600;
-    font-size: 11vmin;
+    font-weight: 800;
+    font-size: 9vmin;
 }
 
 #menu-text {
@@ -533,7 +529,7 @@ footer {
 
 #order-head {
     font-family: "Charm", cursive;
-    font-size: 7vmin;
+    font-size: 5.5vmin;
     font-weight: bold;
     text-align: center;
     padding-top: 2rem;
@@ -563,13 +559,12 @@ footer {
 
 .container h2 {
     padding-bottom: 1rem;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .container h3 {
-    padding-top: 1rem;
     text-align: center;
-    padding-bottom: 3rem;
+    padding-bottom: 12px;
     font-size: 20px;
 }
 
@@ -614,18 +609,18 @@ footer {
     justify-content: center;
     background-color: #988780;
     color: #F8FAF9;
-    font-size: 5vmin;
+    font-size: 3.8vmin;
     padding: 0.4rem 0;
 }
 
 .heading-milk, .heading-fruit, .heading-slush, .heading-smoothies {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .menu-price {
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 1rem;
 }
 
@@ -633,8 +628,8 @@ footer {
 
 #fruit-tea-section {
     width: 100%;
-    padding-bottom: 5rem;
-    padding-top: 4rem;
+    padding-bottom: 1.8rem;
+    padding-top: 1.5rem;
     font-family: "Inter", sans-serif;
 }
 
@@ -652,13 +647,8 @@ footer {
     justify-content: center;
     background-color: #DB1F48;
     color: #F8FAF9;
-    font-size: 5vmin;
+    font-size: 3.8vmin;
     padding: 0.4rem 0;
-}
-
-.heading-fruit {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
 }
 
 /*  Slush Series  */
@@ -682,7 +672,7 @@ footer {
     justify-content: center;
     background-color: #FF9F5B;
     color: #F8FAF9;
-    font-size: 5vmin;
+    font-size: 3.8vmin;
     padding: 0.4rem 0;
 }
 
@@ -696,7 +686,6 @@ footer {
 #smoothies-tea-section {
     width: 100%;
     padding-bottom: 2rem;
-    padding-top: 4rem;
     font-family: "Inter", sans-serif;
 }
 
@@ -713,7 +702,7 @@ footer {
     justify-content: center;
     background-color: #00E091;
     color: #F8FAF9;
-    font-size: 5vmin;
+    font-size: 3.8vmin;
     padding: 0.4rem 0;
 }
 
@@ -726,7 +715,6 @@ footer {
 
 #toppings-section {
     width: 100%;
-    padding-top: 5rem;
     font-family: "Inter", sans-serif;
 }
 
@@ -736,7 +724,7 @@ footer {
     justify-content: center;
     background-color: #FFDE68;
     color: #F8FAF9;
-    font-size: 5vmin;
+    font-size: 3.8vmin;
     padding: 0.4rem 0;
 }
 
@@ -746,7 +734,7 @@ footer {
     justify-content: space-evenly;
     font-family: "Inter", sans-serif;
     width: 100%;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 
 .toppings .boba-left {
@@ -770,28 +758,24 @@ footer {
 
 .boba-left img {
     width: 300px;
-    height: 300px;
+    height: 275px;
 }
 
 .boba-right img {
     width: 300px;
-    height: 300px;
-}
-
-.boba-mid h2 span {
-    background-color: #E42256;
-    padding: 0.4rem;
+    height: 275px;
 }
 
 .boba-mid h2 {
     padding-bottom: 0.5rem;
-    font-size: 4vmin;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .boba-mid p {
     padding-top: 0.3rem;
     font-weight: 600;
-    font-size: 3.6vmin;
+    font-size: 17px;
 }
 
 /*  Sign-up offer Section  */
@@ -1072,7 +1056,7 @@ footer {
     /* Menu hero section */
     
     #menu-text {
-        font-size: 7.5vmin;
+        font-size: 5.8vmin;
     }
 
     /*  About Boba Section  */
@@ -1088,7 +1072,7 @@ footer {
     }
 
     #order-head {
-        font-size: 6vmin;
+        font-size: 5vmin;
     }
 
     .container img {
@@ -1111,13 +1095,44 @@ footer {
     }
 
     #head-menu {
-        font-size: 8.5vmin;
+        font-size: 9vmin;
     }
     
-    /* Gallery Section */
+    /* Menu Section */
 
-    .bubble-partea h2 {
-        font-size: 9.5vmin;
+    .toppings .boba-left {
+        width: 25%;
+        height: auto;
+    }
+
+    .toppings .boba-mid {
+        width: 25%;
+        height: auto;
+        font-size: 2.4vmin;
+        text-align: center;
+    }   
+
+    .toppings .boba-right {
+        width: 25%;
+        height: 225px;
+    }
+    
+    .boba-left img {
+        width: 200px;
+        height: 225px;
+    }
+
+    .boba-right img {
+        width: 200px;
+        height: auto;
+    }
+
+    .boba-mid h2 {
+        font-size: 17px;
+    }
+
+    .boba-mid p {
+        font-size: 15px;
     }
 
     /* Thank you page */
@@ -1275,7 +1290,13 @@ footer {
      /* Menu hero section */
     
     #menu-text {
-        font-size: 5.4vmin;
+        font-size: 4.8vmin;
+        text-align: center;
+    }
+
+    #hero-image img {
+        height: 80vh;
+        object-fit: cover;
     }
     
     /* Order Section */
@@ -1285,7 +1306,7 @@ footer {
     }
 
     #order-head {
-        font-size: 5.5vmin;
+        font-size: 4.8vmin;
     }
 
     .container img {
@@ -1346,37 +1367,29 @@ footer {
     }
 
     .toppings .boba-left {
-        width: 30%;
-        max-width: 240px;
+        width: 20%;
         height: 270px;
     }
 
-    .toppings .boba-mid {
-        width: 30%;
-        max-width: 240px;
+    .boba-mid {
+        width: 20%;
         height: 300px;
         font-size: 2.4vmin;
         text-align: center;
     }
 
-    .toppings .boba-right {
-        width: 30%;
-        max-width: 240px;
-        height: 270px;
-    }
-
     .boba-left img {
-        width: 240px;
+        width: 20%;
         height: 260px;
     }
 
     .boba-right img {
-        width: 240px;
+        width: 20%;
         height: 260px;
     }
 
     .boba-mid h2 {
-        font-size: 3vmin;
+        font-size: 15px;
     }
 
     /* Thank you page */
@@ -1438,6 +1451,7 @@ footer {
         height: 100%;
         padding-top: 85px;
     }
+
     .menu li {
         width: 100%;
     }
@@ -1463,6 +1477,13 @@ footer {
         width: 100%;
         height: auto;
     }
+
+    #hero-image img {
+        height: 80vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
     #hero-text {
         font-size: 4.1vmin;
         text-align: center;
@@ -1585,8 +1606,9 @@ footer {
      /* Menu hero section */
     
      #menu-text {
-        font-size: 5vmin;
+        font-size: 4.5vmin;
         text-align: center;
+        padding-bottom: 7px;
     }
 
     /* Welcome section */
@@ -1605,23 +1627,27 @@ footer {
         padding-top: 2rem;
     }
 
-    .large-container  .container {
-        flex: 1 1 calc(50% - 20px);
-        max-width: calc(50% - 20px);
+    .large-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        width: 25%;
+        margin-bottom: 20px;
     }
 
     .container img {
-        width: 100px;
+        width: 75%;
         height: auto;
-        padding: 0;
     }
 
     .container h2 {
-        font-size: 4vmin;
+        font-size: 15px;
     }
 
     .container h3 {
-        font-size: 3vmin;
+        font-size: 14px;
     }
  
      /* Milk Tea Section */
@@ -1663,22 +1689,19 @@ footer {
     }
     
     .toppings .boba-left {
-        width: 30%;
-        max-width: 180px;
+        width: 20%;
         height: 250px;
     }
 
     .toppings .boba-mid {
-        width: 30%;
-        max-width: 180px;
+        width: 20%;
         height: 250px;
         font-size: 2.4vmin;
         text-align: center;
     }   
 
     .toppings .boba-right {
-        width: 30%;
-        max-width: 180px;
+        width: 20%;
         height: 250px;
     }
     
@@ -2033,7 +2056,7 @@ footer {
     }
     
     #menu-text {
-        font-size: 4.7vmin;
+        font-size: 4vmin;
         text-align: center;
         height: 110px;
     }
@@ -2055,18 +2078,14 @@ footer {
     .large-container {
         width: 100%; 
         height: auto;
-        margin: 0;
         display: flex;
         flex-direction: column;
         align-items: center; 
-        padding: 0;
     }
 
     .container {
-        width: 100%; 
+        width: 70%; 
         height: auto;
-        padding-left: 0;
-        margin-bottom: 0;
     }
 
     .container img {
@@ -2075,12 +2094,13 @@ footer {
     }
 
     .container h2 {
-        font-size: 5vmin;
+        font-size: 14px;
+        padding-top: 0;
     }
 
     .container h3 {
-        font-size: 5vmin;
-        padding-bottom: 0;
+        font-size: 13px;
+        padding-bottom: 0.5rem;
     }
 
     /*  Milk Series  */
@@ -2197,11 +2217,9 @@ footer {
     }
 }
 
-/* Large container to hold all the sections */
 .large-container {
     display: flex;
-    justify-content: center;
-    padding: 20px;
+    justify-content: space-evenly;
   }
   
   /* Individual container styling */
@@ -2211,33 +2229,24 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
-    flex: 1 1 calc(25% - 20px);
-    max-width: calc(25% - 20px);
     text-align: center;
-    padding: 20px;
-    transition: transform 0.3s ease;
   }
   
-  .container:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Image styling */
   .container img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    border-color: #B40052;
     margin-bottom: 10px;
   }
   
   .container h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
+    font-size: 17px;
     color: #333;
   }
   
   .container h3 {
-    font-size: 1.2em;
+    font-size: 14px;
     color: #555;
   }
 }
@@ -2254,15 +2263,15 @@ footer {
      /* Deals Section */
 
     .box a h3 {
-        font-size: 3.5vmin;
+        font-size: 15px;
     }
     
     .box a h4 {
-        font-size: 3vmin;
+        font-size: 13px;
     }
     
     .box a h5 {
-        font-size: 2.7vmin;
+        font-size: 11px;
     }
  
     /* Footer Section */
