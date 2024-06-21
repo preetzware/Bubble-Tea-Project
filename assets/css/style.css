@@ -504,7 +504,7 @@ footer {
 
 #menu-text {
     width: 100%;
-    height: 130px;
+    height: 110px;
     background-color: #55d142ce;
     background-size: cover;
     bottom: 0;
@@ -1371,11 +1371,6 @@ footer {
         padding: 2rem;
     }
 
-   .menuHeader{
-    font-size: 38px;
-    text-align: center;
-    }
-
      /* Footer */
      .column li {
         font-size: 2.2vmin;
@@ -2067,7 +2062,7 @@ footer {
     #menu-text {
         font-size: 4vmin;
         text-align: center;
-        height: 90px;
+        height: 100px;
     }
 
     /* Order Section */
@@ -2193,9 +2188,21 @@ footer {
     }
 
     /* Form page */
+
+    .sign-up h2 {
+        font-size: 25px;
+    }
+    .sign-up h3 {
+        font-size: 15px;
+    }
+
+    .sign-up h4 {
+        font-size: 16px; 
+    }
+
     .sign-up::before {
-        left:3.2rem;
-        width: 80%;
+        left: 0;
+        width: 100%;
     }
 
     /* Thank you page */
@@ -2310,6 +2317,9 @@ footer {
 
    /* Menu Section */
 
+   #menu-text {
+    height: 90px;
+   }
    .milk-series, .fruit-series, .slush-series, .smoothies-series, .head-toppings {
     font-size: 14px;
     padding: 0.5rem 0;
