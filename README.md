@@ -1,7 +1,7 @@
 # Boba Tea
 
 ![AmIResponsiveImage](assets/img/Responsive-img.JPG)
-[View the live website here.] (https://preetzware.github.io/Bubble-Tea-Project/)
+[View the live website here.] (https://preetzware.github.io/bubble-tea-project/)
 
 
 ## Introduction
