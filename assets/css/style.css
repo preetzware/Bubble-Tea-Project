@@ -190,7 +190,7 @@ body {
 .title h2 {
     flex: 1 1 100%; 
     text-align: center;
-    font-size: 9vmin;
+    font-size: 8vmin;
     font-family: "Charm", cursive;
     padding-bottom: 3rem;
 }
@@ -276,7 +276,7 @@ hr {
 
 #deals-section h2 {
     text-align: center;
-    font-size: 9vmin;
+    font-size: 8vmin;
     font-family: "Charm", cursive;
     font-weight: 700;
     padding-bottom: 2rem;
@@ -293,7 +293,7 @@ hr {
     align-items: center;
     width: 100%;
     justify-content: space-evenly;
-    margin: 50px 15px;
+    padding-bottom: 2rem;
 }
 
 .box {
@@ -322,6 +322,7 @@ hr {
 
 .box a h3 {
     font-size: 4vmin;
+    padding-top: 1.5rem;
 }
 
 .box a h4 {
@@ -1052,7 +1053,7 @@ footer {
     }
    
     #deals-section .box {
-        height: 450px;
+        height: 378px;
     }
     #deals-section .deals .box {
         margin: 40px 10px 28px 10px;
@@ -1238,9 +1239,9 @@ footer {
     }
 
     .box img {
-        height: 300px;
+        height: 250px;
         width: 100%;
-        max-width: 400px;
+        object-fit: cover;
     }
 
     .box h3 {
@@ -1275,13 +1276,14 @@ footer {
     }
 
     .bubbles-tea img {
-        width: 300px;
-        height: 320px;
+        width: 310px;
+        height: 280px;
+        object-fit: cover;
     }
 
     .text-boba h2 {
         padding-bottom: 0.5rem;
-        font-size: 3.3vmin;
+        font-size: 3.4vmin;
     }
 
     .text-boba p {
@@ -1555,28 +1557,29 @@ footer {
        padding: 0;
     }
 
-    .box {
-        height: 275px;
-        width: 40%;
-        max-width: 300px;
+    #deals-section .box {
+        height: 330px;
+        width: 26%;
     }
 
     .box img {
-        height: 275px;
+        object-fit: cover;
+        height: 230px;
         width: 100%;
-        max-width: 300px;
     }
     
+    .box a h3 {
+        font-size: 3.5vmin;
+    }
+
+    .box a h4 {
+        font-size: 3vmin;
+    }
+
     /*  Boba Section  */
 
     #about-boba {
         width: 100%;
-    }
-
-    .heading h2 {
-        padding-top: 3rem;
-        padding-bottom: 2rem;
-        font-size: 6.4vmin;
     }
 
     .boba {
@@ -1584,33 +1587,37 @@ footer {
     }
 
     .boba .text-boba {
-        width: 40%;
-        max-width: 350px;
-        height: 350px;
+        width: 45%;
+        max-width: 300px;
+        height: auto;
     }
 
     .bubbles-tea {
         width: 40%;
-        max-width: 350px;
-        height: 350px;
+        max-width: 450px;
+        height: auto;
+        object-fit: cover;
     }
 
     .bubbles-tea img {
         width: 250px;
-        height: 300px;
-        padding-top: 0.5rem;
+        height: 270px;
+        object-fit: cover;
+        padding-top: 1.2rem;
+        padding-right: 1rem;
+        padding-left: 0;
     }
 
     .text-boba h2 {
         padding-bottom: 0.5rem;
-        font-size: 3vmin;
+        font-size: 3.3vmin;
     }
     
     .text-boba p {
         padding-top: 1rem;
         line-height: 1.2;
         letter-spacing: 0;
-        font-size: 11.5px;
+        font-size: 13px;
     }
 
      /* Menu hero section */
@@ -1915,6 +1922,7 @@ footer {
 
     .store-right {
         margin-top: 4rem;
+        margin-bottom: 1rem;
     }
 
     .text-left,
@@ -1957,13 +1965,9 @@ footer {
     }
 
     /* Offers section */
-
-    #deals-section {
-        margin: 1rem 0 0 0;
-    }
     
     #deals-section .deals .box {
-        margin: 0;
+        margin-bottom: 1rem;
     }
 
     .deals {
@@ -1981,16 +1985,16 @@ footer {
         padding-bottom: 0;
     }
 
-    .box {
+    #deals-section .box {
         width: 90%;
-        margin-bottom: 0; 
+        margin-bottom: 2rem; 
         border: none;
     }
 
     .box img {
-        height: 350px; 
-        width: auto; 
-        max-width: 100%; 
+        height: 300px;
+        width: 200px;
+        max-width: 100%;
         object-fit: cover;
     }
     
@@ -2013,6 +2017,10 @@ footer {
         margin: 0;
         overflow: hidden;
         padding: 0;
+    }
+
+    .heading {
+        padding-top: 3rem;
     }
 
     .heading h2 {
