@@ -589,9 +589,10 @@ footer {
     position: relative;
     height: 150px;
     width: 150px;
+    object-fit: cover;
     border: none;
     background: no-repeat center;
-    border-radius: 50%;
+    border-radius: 10%;
     padding-bottom: 0.5rem;
     margin: 0;
 }
@@ -629,7 +630,7 @@ footer {
 #fruit-tea-section {
     width: 100%;
     padding-bottom: 1.8rem;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     font-family: "Inter", sans-serif;
 }
 
@@ -1662,16 +1663,17 @@ footer {
         justify-content: space-evenly;
         margin: 0;
         padding-top: 1.2rem;
-        font-size: 2vmin;
+        font-size: 15px;
     }
 
     .img-milktea {
         position: relative;
-        height: 100px;
-        width: 90px;
+        height: 125px;
+        width: 120px;
+        object-fit: cover;
         border: none;
         background: no-repeat center;
-        border-radius: 7%;
+        border-radius: 8%;
         padding-bottom: 0.5rem;
         margin: 0;
     }
@@ -1681,22 +1683,29 @@ footer {
     }
 
     .menu-price {
-    font-size: 3.3vmin;
+    font-size: 16px;
+    }
+
+    .heading-milk, .heading-fruit, .heading-slush, .heading-smoothies {
+        font-size: 15px;
     }
     
     .milk-series, .fruit-series, .slush-series, .smoothies-series, .head-topping {
         font-size: 3.6vmin;
     }
+
+    .toppings {
+        margin-bottom: 0;
+    }
     
     .toppings .boba-left {
-        width: 20%;
+        width: 200px;
         height: 250px;
     }
 
     .toppings .boba-mid {
-        width: 20%;
+        width: 18%;
         height: 250px;
-        font-size: 2.4vmin;
         text-align: center;
     }   
 
@@ -1706,21 +1715,23 @@ footer {
     }
     
     .boba-left img {
-        width: 180px;
-        height: 250px;
+        width: 190px;
+        height: 210px;
+        object-fit: cover;
     }
 
     .boba-right img {
-        width: 180px;
-        height: 250px;
+        width: 190px;
+        height: 210px;
+        object-fit: cover;
     }
 
     .boba-mid h2 {
-        font-size: 2.7vmin;
+        font-size: 16px;
     }
 
     .boba-mid p { 
-        font-size: 2.8vmin;
+        font-size: 14px;
     }
 
     .signup-btn a {
@@ -2034,6 +2045,21 @@ footer {
         margin-left: 3rem;
     }
 
+    /*  Footer Section  */
+
+    .column li {
+        font-size: 13px;
+    }
+
+    .column h2 {
+        font-size: 15px;
+    }
+
+    .footer-logo a img {
+        height: 16vh;
+        max-width: 130px;
+    }
+
     /*  Menu Hero image text  */
 
     #hero-section {
@@ -2126,7 +2152,7 @@ footer {
     
     .img-milktea {
         height: 175px;
-        width: 100%;
+        width: 140px;
         border-radius: 10px;
     }
  
@@ -2135,7 +2161,7 @@ footer {
     .heading-slush,
     .heading-smoothies,
     .menu-price {
-        font-size: 4vmin;
+        font-size: 15px;
     }
 
     .milk-series,
@@ -2156,6 +2182,7 @@ footer {
     .toppings {
         flex-direction: column;
         align-items: center;
+        text-align: center;
         margin: 1rem 0;
     }
 
@@ -2169,27 +2196,17 @@ footer {
 
     .boba-left img,
     .boba-right img {
-        width: 100%; 
-        height: 220px;
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
     }
 
     .boba-mid h2 {
-        font-size: 3.7vmin;
+        font-size: 16px;
     }
 
     .boba-mid p {
-        font-size: 4vmin;
-    }
-
-     /* Gallery Page */
-
-    .bubble-partea h2 {
-        font-size: 9vmin;
-    }
-
-    .gif-partea img {
-        height: 85px;
-        width: 80px;
+        font-size: 15px;
     }
 
     /* Form page */
@@ -2253,11 +2270,30 @@ footer {
 
   /* Media query for mobile devices */
 
-@media screen and (max-width: 335px) {
+@media screen and (max-width: 375px) {
 
   .large-container  .container {
       flex: 1 1 100%;
       max-width: 100%;
+    }
+
+   /* Menu Section */
+
+   .milk-series, .fruit-series, .slush-series, .smoothies-series, .head-toppings {
+    font-size: 14px;
+    padding: 0.5rem 0;
+   }
+
+    .img-milktea {
+        height: 140px;
+        width: 110px;
+        border-radius: 10px;
+    }
+
+    .boba-left img, .boba-right img {
+        width: 230px;
+        height: 180px;
+        object-fit: cover;
     }
 
      /* Deals Section */
