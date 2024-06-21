@@ -831,52 +831,6 @@ footer {
     border: 3px #06141B;
 }
 
-/*  Gallery page - title and gif section  */
-
-.bubble-partea {
-    width: 100%;
-    margin: 3rem 0;
-}
-
-.bubble-partea h2 {
-    display: flex;
-    justify-content: center;
-    font-family: "Charm", cursive;
-    font-size: 12vmin;
-}
-
-.gif-partea {
-    display: flex;
-    justify-content: center;
-}
-
-.gif-partea img {
-    height: 130px;
-    width: 130px;
-}
-
-/*  Gallery page - title and gif section  */
-
-#gallery {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 15px 0 100px 0;
-}
-
-#gallery img {
-    flex-wrap: wrap;
-    width: 320px;
-    height: 300px;
-    margin: 20px 10px;
-    transition: transform .2s;
-}
-
-#gallery img:hover {
-    cursor: pointer;
-    transform: scale(1.3); 
-}
-
 /*  Form page - Sign Up Section  */
 
 .form-section {
@@ -1719,7 +1673,7 @@ footer {
     }
 
     .toppings {
-        margin-bottom: 0;
+        width: 90%;
     }
     
     .toppings .boba-left {
